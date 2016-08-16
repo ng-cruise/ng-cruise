@@ -1,22 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
-
-@Component({})
+@Component({
+  selector: 'home',
+  encapsulation: ViewEncapsulation.None
+})
 export class Home {
   constructor() {
     console.log('Home');
-  }
-}
-
-@Component({
-  template: `
-    <div>
-      YOLO
-    </div>
-  `
-})
-export class Yolo {
-  constructor() {
-    console.log('Yolo');
   }
 }
