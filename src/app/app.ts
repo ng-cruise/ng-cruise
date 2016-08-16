@@ -1,9 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
-@Component({})
-export class App {
-  constructor() {
-    console.log('Hello Angular 2 Webpack 2');
-  }
-}
-
+@Component({
+  selector: 'app',
+  styleUrls: ['./app/app.css'],
+  encapsulation: ViewEncapsulation.None
+})
+export class App { }
