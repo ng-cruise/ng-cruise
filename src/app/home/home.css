@@ -11,3 +11,10 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.organiser__img {
+  border: 3px dotted #3F51B5;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
