@@ -114,11 +114,11 @@ img.left {
 /* bubbles */
 .img-circle {
   border-radius: 50%;
-  width: 365px;
+  width: 196px;
 }
 .img-circle-lg {
   border-radius: 50%;
-  width: 196px;
+  width: 365px;
 }
 
 .circleBase {
