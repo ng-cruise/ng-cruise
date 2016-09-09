@@ -1,77 +1,26 @@
+/*
+ * Angular bootstraping
+ */
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router';
-import { NgModule } from '@angular/core';
+import { decorateModuleRef } from './app/environment';
+import { ApplicationRef } from '@angular/core';
+import { bootloader } from '@angularclass/hmr';
+/*
+ * App Module
+ * our top level module that holds all of our components
+ */
+import { AppModule } from './app';
 
-import { App } from './app/app';
-import appModule from './app';
+/*
+ * Bootstrap our Angular app with a top level NgModule
+ */
+export function main(): Promise<any> {
+  return platformBrowserDynamic()
+    .bootstrapModule(AppModule)
+    .then(decorateModuleRef)
+    .catch(err => console.error(err));
 
-@NgModule({
-  bootstrap: [
-    App
-  ],
-  declarations: [
-    App
-  ],
-  imports: [
-    // Angular 2
-    BrowserModule,
-    FormsModule,
-    HttpModule,
-    RouterModule.forRoot([], {
-      useHash: true
-    }),
-    // app
-    appModule
-    // vendors
-  ],
-  providers: []
-})
-class MainModule {}
-
-export function main() {
-  return platformBrowserDynamic().bootstrapModule(MainModule);
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Hot Module Replacement
-
-export function bootstrapDomReady() {
-  // bootstrap after document is ready
-  document.addEventListener('DOMContentLoaded', main);
-}
-
-if ('development' === ENV && HMR) {
-  // activate hot module reload
-  if (document.readyState === 'complete') {
-    main();
-  } else {
-    bootstrapDomReady();
-  }
-  module.hot.accept();
-} else {
-  bootstrapDomReady();
-}
+bootloader(main);

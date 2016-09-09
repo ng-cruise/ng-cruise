@@ -7,10 +7,23 @@ body {
 }
 
 .section {
-  color: white;
+  color: #494956;
   border: 1px solid #2196F3;
-  background: #e91e63;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header_title {
+  color: #ef4457;
+}
+
+h1, .section {
+  color: #ef4457;
+}
+
+.section::before {
+  content: '';
+  background-image: url('assets/img/title_bar.png');
 }

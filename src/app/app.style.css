@@ -1,0 +1,54 @@
+/* Include a custom font */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:500);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+body {
+  font-family: "Ubuntu";
+}
+
+.section {
+  color: #494956;
+  xborder: 1px solid #2196F3;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+h1, .section {
+  color: #ef4457;
+}
+
+.section::before {
+  content: url('/assets/img/title_bar.png');
+  position: relative;
+  left: -24px;
+  background-repeat: no-repeat;
+  width: 70px;
+  top: -8px;
+}
+
+.section::after {
+  content: url('/assets/img/title_bar.png');
+  background-repeat: no-repeat;
+  position: relative;
+  right: -24px;
+  width: 70px;
+  top: -8px;
+}
+
+myheader {
+  color: #494956;
+  xborder: 1px solid #2196F3;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.headline {
+  font-size: 28px;
+  xborder: 1px solid #2196F3;
+}

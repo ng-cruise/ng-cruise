@@ -1,22 +1,28 @@
 import { NgModule } from '@angular/core';
-export * from './home';
+import { CommonModule } from '@angular/common';
+export * from './home.component';
 
-import { Home } from './home';
+import { Home } from './home.component';
 import { Contact } from './components/contact';
+import { Headline } from './components/headline';
+import { HeadlineSection } from './components/headline-section';
 import { Dates } from './components/dates';
 import { Location } from './components/location';
 import { Organisers } from './components/organisers';
+import { Speakers } from './components/speakers';
+import { Profile } from './components/profile';
 import { Signup } from './components/signup';
 import { Tickets } from './components/tickets';
 import { Twitter } from './components/twitter';
+import { SectionFooter } from './components/section-footer';
 
 @NgModule({
   declarations: [
     // Components / Directives/ Pipes
-    Home, Contact, Dates, Location, Organisers, Signup, Tickets, Twitter,
+    Home, Contact, Headline, HeadlineSection, Dates, Location, Organisers, Speakers, Profile, Signup, Tickets, Twitter, SectionFooter
   ],
   imports: [
-    
+    CommonModule
   ],
   exports: [
     Home
@@ -24,4 +30,3 @@ import { Twitter } from './components/twitter';
 })
 export default class HomeModule {
 }
-
