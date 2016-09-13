@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'speakers',
   template: `
-    <div class="section">Speakers</div>
+    <div class="section" id="speakers">Speakers</div>
     <div class="row"> 
       <div class="col-md-4">
         <profile name="Pascal Precht" image="https://pbs.twimg.com/profile_images/740876520437211136/tpm5d6Ya_400x400.jpg">

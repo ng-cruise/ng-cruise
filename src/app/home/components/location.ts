@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'location',
   template: `
-    <div class="section">When & Where</div>
+    <div class="section" id="location">When & Where</div>
     <div class="row">
       <div class="col-md-6">
         <headline title="Headline">asdasdasdasdas</headline>
