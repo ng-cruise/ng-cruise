@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 export * from './home.component';
 
 import { Home } from './home.component';
+import { Welcome } from './components/welcome';
 import { Contact } from './components/contact';
 import { Headline } from './components/headline';
 import { HeadlineSection } from './components/headline-section';
@@ -19,7 +20,7 @@ import { SectionFooter } from './components/section-footer';
 @NgModule({
   declarations: [
     // Components / Directives/ Pipes
-    Home, Contact, Headline, HeadlineSection, Dates, Location, Organisers, Speakers, Profile, Signup, Tickets, Twitter, SectionFooter
+    Home, Welcome, Contact, Headline, HeadlineSection, Dates, Location, Organisers, Speakers, Profile, Signup, Tickets, Twitter, SectionFooter
   ],
   imports: [
     CommonModule

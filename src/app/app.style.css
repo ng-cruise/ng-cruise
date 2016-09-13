@@ -4,11 +4,11 @@
 
 body {
   font-family: "Ubuntu";
+  padding-top: 111px; /* due to sticky top navigation */
 }
 
 .section {
   color: #494956;
-  xborder: 1px solid #2196F3;
   background: white;
   display: flex;
   align-items: center;
@@ -50,5 +50,63 @@ myheader {
 
 .headline {
   font-size: 28px;
-  xborder: 1px solid #2196F3;
+}
+
+navbar {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ef4457;
+  text-transform: uppercase;
+}
+.top {
+  border-top: 5px solid #0583c9;  
+}
+.menu { 
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ef4457;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ef4457;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ef4457;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ef4457;
+}
+
+a:active {
+  text-decoration: none;
+  color: #ef4457;
+}
+
+
+.navbar-custom {
+    background-color:#fff;
+    border-radius:0;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
 }
