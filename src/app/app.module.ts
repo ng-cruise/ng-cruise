@@ -12,12 +12,9 @@ import { ENV_PROVIDERS } from './environment';
 import { ROUTES } from './app.routes';
 // App is our top level component
 import { App } from './app.component';
-import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState } from './app.service';
 import { Home } from './home';
-import { About } from './about';
 import { NoContent } from './no-content';
-
 
 import homeModule from './home';
 import { Footer } from './shared/components/footer';
@@ -25,7 +22,6 @@ import { Header } from './shared/components/header';
 
 // Application wide providers
 const APP_PROVIDERS = [
-  ...APP_RESOLVER_PROVIDERS,
   AppState
 ];
 
@@ -36,7 +32,6 @@ const APP_PROVIDERS = [
   bootstrap: [ App ],
   declarations: [
     App,
-    About,
     NoContent,
     Header, Footer
   ],
