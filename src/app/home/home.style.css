@@ -314,7 +314,7 @@ img.left {
 }
 
 
-.radio {
+.music {
   animation: radio2 400ms ease-in-out infinite;
   -webkit-animation: radio2 400ms ease-in-out infinite;
   -webkit-transform: translate3d(0,0,0);
@@ -344,7 +344,7 @@ img.left {
 
 .welcome-container {
   height: 618px;
-  padding-top: 100px;
+  padding-top: 110px;
   margin-top: 3px;
 }
 .welcome-title {
@@ -359,28 +359,27 @@ img.left {
   color: #494956;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 1.8;
 }
 
 .welcome {
-  background-image: url('/assets/img/NG-Cruise-Header-Notch-lg.png');
+  background-image: url('/assets/img/NG-Cruise-Header-lg.png');
   background-repeat: no-repeat;
   background-size: 100% 618px;
   width: 100%;
   height: 618px;
   position: absolute;
   left: 0;
-  top: 111px;
+  top: 144px;
   z-index: -1;
 }
 
 @media only screen and (max-width : 992px) {
   .welcome {
-    background-image: url('/assets/img/NG-Cruise-Header-Notch-med.png')
+    background-image: url('/assets/img/NG-Cruise-Header-med.png')
   }
 }
-
 
 .main-btn {
   position: relative;
@@ -392,7 +391,7 @@ img.left {
   background: #ffc300;
   font-size: 24px;
   font-weight: bold;
-  margin: 5px 10px 5px 10px; /* spacing */
+  margin: 10px 10px 10px 10px; /* spacing */
 }
 
 .main-btn:before {
@@ -404,4 +403,22 @@ img.left {
   right: -10px;
   bottom: -10px;
   border: 5px solid #ffc300;
+}
+
+.location {
+  top: -80px;
+  z-index: -2;
+}
+
+.logo-icon {
+  margin-bottom: 4px;
+}
+
+.myfooter {
+  padding: 100px;
+  background-color: #ffc300;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
 }

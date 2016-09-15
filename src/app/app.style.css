@@ -97,16 +97,48 @@ a:active {
 
 
 .navbar-custom {
-    background-color:#fff;
-    border-radius:0;
+  background-color:#fff;
+  border-radius:0;
 }
+.navbar-custom-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px #efefef;
+  -moz-box-shadow: 0 8px 6px -6px #efefef;
+  box-shadow: 0 8px 6px -6px #efefef;
+}
+
 .navbar-custom .navbar-nav > li > a {
-    color:#fff;
+  color:#fff;
 }
 .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color:transparent;
+  color: #ffffff;
+  background-color:transparent;
 }
 .navbar-custom .navbar-brand {
-    color:#eeeeee;
+  color:#eeeeee;
+}
+
+.grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.custom-nav-bar.navbar-toggle {
+  background-color: #ddd; /*Background color for holder*/
+}
+.custom-nav-bar.navbar-toggle .icon-bar {
+  background-color: #888; /*Background color for bar in the holder*/
 }

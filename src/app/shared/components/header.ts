@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
       <navbar class="navbar navbar-custom navbar-fixed-top top" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+            <button type="button" class="navbar-toggle collapsed custom-nav-bar" data-toggle="collapse" data-target="#collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -25,7 +25,7 @@ import { Component } from '@angular/core';
               <div class="col-xs-2">
                 <div class="centerBlock">
                   <div class="logo" [routerLink]="['home']" fragment="top">
-                    <img src="assets/img/logo.png">
+                    <div class="logo-icon centerBlock"><img src="assets/img/logo.png"></div>
                   </div>
                 </div>
               </div>

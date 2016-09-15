@@ -8,11 +8,13 @@ import { Component } from '@angular/core';
       <div class="welcome-title">Angular.JS Cruise</div>
       <div class="welcome-sub">
         Sub Headline Lorem Ipsum Dolor Sit<br/>
-        Amet Consectetur Adipiscing
+        <a href="https://www.ng-conf.org/#/conduct" title="This code of conduct was adopted from ng-conf's code of conduct" target="_blank">Code of Conduct</a>
       </div>
       <div class="centerBlock">
-        <button class="main-btn">Purchase</button>
-        <button class="main-btn">Sponsor</button>
+        <button class="main-btn grow">Purchase</button>
+      </div>
+      <div class="centerBlock">
+        <button class="main-btn grow" onclick="document.location='/#/home#sponsors';return false;">Sponsor</button>
       </div>
     </div>
   `

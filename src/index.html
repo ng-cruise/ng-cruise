@@ -49,7 +49,18 @@
   <!-- Webpack Dev Server reload -->
   <script src="/webpack-dev-server.js"></script>
   <% } %>
-
+  <script> 
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var y = $(window).scrollTop();
+        if( y > 0 ){
+          $("navbar").addClass("navbar-custom-shadow");
+        } else {
+          $("navbar").removeClass("navbar-custom-shadow");
+        }
+      });
+    })
+  </script>
 
 </body>
 </html>
