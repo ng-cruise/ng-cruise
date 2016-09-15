@@ -251,6 +251,9 @@ img.left {
   background-repeat: no-repeat;
 }
 
+.profile {
+  width: 100px;
+}
 
 .profile__title {
   font-size: 22px;
