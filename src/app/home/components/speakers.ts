@@ -21,7 +21,7 @@ import { Component } from '@angular/core';
         </profile>
       </div>
     </div>
-    <section-footer left="assets/img/chair-drink.png" right="assets/img/13_small.png" bottomClass="section-footer__beach" waves="true"></section-footer>
+    <section-footer left="assets/img/chair-drink.png" right="assets/img/13_small.png" rightClass="music" bottomClass="section-footer__beach" waves="true"></section-footer>
   `,
 })
 export class Speakers {
