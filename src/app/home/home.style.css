@@ -426,3 +426,9 @@ img.left {
   font-size: 18px;
   font-weight: normal;
 }
+
+.row { 
+  /* fix: remove horizontal scroll */
+  margin-right: 0px;
+  margin-left: 0px;
+}
