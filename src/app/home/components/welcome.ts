@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
         <a href="https://www.ng-conf.org/#/conduct" title="This code of conduct was adopted from ng-conf's code of conduct" target="_blank">Code of Conduct</a>
       </div>
       <div class="centerBlock">
-        <button class="main-btn grow">Purchase</button>
+        <button class="main-btn grow" onclick="document.location='/#/home#tickets';return false;">Purchase</button> 
       </div>
       <div class="centerBlock">
         <button class="main-btn grow" onclick="document.location='/#/home#sponsors';return false;">Sponsor</button>
