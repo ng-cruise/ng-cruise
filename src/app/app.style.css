@@ -137,10 +137,17 @@ a:active {
 }
 
 .custom-nav-bar.navbar-toggle {
-  background-color: #ddd; /*Background color for holder*/
+  background-color: #e2f9ff; /*Background color for holder*/
 }
 .custom-nav-bar.navbar-toggle .icon-bar {
-  background-color: #888; /*Background color for bar in the holder*/
+  background-color: #7ad2f1; /*Background color for bar in the holder*/
+}
+
+.navbar-custom li>a:focus, .navbar-custom li>a:hover {
+    text-decoration: none;
+    background-color: #e2f9ff;
+}
+
 
 .conduct {
   font-size: 16px;
@@ -149,6 +156,14 @@ a:active {
   margin-top: 24px;
 }
 
+.myfooter {
+  padding: 100px;
+  background-color: #ffc300;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+}
 
 q {
   font-style: italic;
