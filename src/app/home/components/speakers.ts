@@ -4,10 +4,13 @@ import { Component } from '@angular/core';
   selector: 'speakers',
   template: `
     <div class="section" id="speakers">Speakers</div>
-    <div class="row"> 
-      <div class="col-md-4">
+    <div class="row">
+      <div class="col-s-12">
+        <h4 class="centerBlock">CFP opens 10/15/2016.</h4>
+      </div>
+      <!-- <div class="col-md-4">
         <profile name="Pascal Precht" image="https://pbs.twimg.com/profile_images/740876520437211136/tpm5d6Ya_400x400.jpg">
-          Pascal is a front-end engineer and a Angular Developer Expert nominated by Google. He created the angular-translate module, is an Angular 2 contributor and also part of the Angular 2 Docs Authoring team. 
+          Pascal is a front-end engineer and a Angular Developer Expert nominated by Google. He created the angular-translate module, is an Angular 2 contributor and also part of the Angular 2 Docs Authoring team.
         </profile>
       </div>
       <div class="col-md-4">
@@ -20,7 +23,7 @@ import { Component } from '@angular/core';
           Miško is the creator of the Angular framework. He has passion for making complex things simple. He currently works at Google, but has previously worked at Adobe, Sun Microsystems, Intel, and Xerox, where he became an expert in building web applications in web related technologies such as Java, JavaScript, Flex and ActionScript.
         </profile>
       </div>
-    </div>
+    </div> -->
     <section-footer left="assets/img/chair-drink.png" right="assets/img/13_small.png" rightClass="music" bottomClass="section-footer__beach" waves="true"></section-footer>
   `,
 })
