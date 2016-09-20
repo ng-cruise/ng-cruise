@@ -385,6 +385,12 @@ img.left {
   }
 }
 
+@media only screen and (max-width : 768px) {
+  .welcome {
+    background-image: url('/assets/img/NG-Cruise-Header-BG-Repeat.png')
+  }
+}
+
 .main-btn {
   position: relative;
   padding: 5px 40px 5px 40px;
@@ -416,15 +422,6 @@ img.left {
 
 .logo-icon {
   margin-bottom: 4px;
-}
-
-.myfooter {
-  padding: 100px;
-  background-color: #ffc300;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .row { 
