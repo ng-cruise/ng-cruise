@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
       <div class="welcome"></div>
       <div class="welcome-title">Angular Cruise</div>
       <div class="welcome-sub">
-        <p>As <a href="https://twitter.com/jeffbcross/status/776891439657525250">Jeff Cross' beard</a> has stated,</p>
+        <p>As <a href="https://twitter.com/jeffbcross/status/776891439657525250" target="_blank">Jeff Cross' beard</a> has stated,</p>
         <p>we're officially jumping the shark</p>
         <p>May 29, 2017!</p>
       </div>
