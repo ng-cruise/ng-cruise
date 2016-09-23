@@ -42,13 +42,13 @@ import { Component } from '@angular/core';
                   <a [routerLink]="['home']" fragment="speakers">Speakers</a>
                 </li>
                 <li routerLinkActive="active">
-                  <a [routerLink]="['schedule']" fragment="schedule">Schedule</a>
+                  <a [routerLink]="['home']" fragment="tickets">Tickets</a>
                 </li>
                 <li routerLinkActive="active">
-                  <a [routerLink]="['sponsors']" fragment="sponsors">Sponsors</a>
+                  <a href="#" onclick="window.open('https://goo.gl/forms/bbdH7XOcRtt6ciz23','_blank');return false;" target="_blank">Sponsors</a>
                 </li>
                 <li routerLinkActive="active">
-                  <a [routerLink]="['cruise']">Cruise</a>
+                  <a [routerLink]="['home']" fragment="location">Cruise</a>
                 </li>
               </ul>
             </div>
