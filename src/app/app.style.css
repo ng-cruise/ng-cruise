@@ -5,6 +5,7 @@
 body {
   font-family: "Ubuntu";
   padding-top: 111px; /* due to sticky top navigation */
+  overflow-x: hidden; /* due to a bootstrap issue */
 }
 
 .section {

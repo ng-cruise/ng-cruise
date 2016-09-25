@@ -435,9 +435,3 @@ img.left {
   margin-bottom: 4px;
 }
 
-.row { 
-  /* fix: remove horizontal scroll */
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
