@@ -282,15 +282,14 @@ img.left {
   font-weight: bold;
   color: #0583c9;
   text-align: center;
-  margin-top: -64px; 
 }
 
 .headline__body {
   font-size: 16px;
   color: #354e59;
   text-align: center;
-  margin-bottom: 60px; 
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .left > div {
@@ -365,6 +364,8 @@ img.left {
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 1.8;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .welcome {
@@ -416,8 +417,18 @@ img.left {
 }
 
 .location {
-  top: -80px;
   z-index: -2;
+}
+@media (max-width: 768px) { 
+  .location {
+    margin-top: 75px;
+  }
+}
+
+.location__body {
+  padding-left: 20px;
+  padding-right: 20px; 
+  max-width: 400px;
 }
 
 .logo-icon {
@@ -429,3 +440,4 @@ img.left {
   margin-right: 0px;
   margin-left: 0px;
 }
+
