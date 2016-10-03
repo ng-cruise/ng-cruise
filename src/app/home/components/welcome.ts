@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
     <div id="welcome" class="welcome-container centerBlock">
       <div class="welcome"></div>
       <div class="welcome-title">Angular Cruise</div>
+      <div class="welcome-presented">presented by ng-conf</div>
       <div class="welcome-sub">
         <p>As <a href="https://twitter.com/jeffbcross/status/776891439657525250" target="_blank">Jeff Cross' beard</a> has stated,</p>
         <p>we're officially jumping the shark</p>

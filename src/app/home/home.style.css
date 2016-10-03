@@ -356,7 +356,17 @@ img.left {
   color: #ef4457;
   text-align: center;
   text-transform: uppercase;
+  line-height: 46px;
 }
+
+.welcome-presented {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ef4457;
+  text-align: center;
+  text-transform: uppercase; 
+}
+
 .welcome-sub {
   font-size: 24px;
   color: #494956;
@@ -389,6 +399,9 @@ img.left {
 @media only screen and (max-width : 768px) {
   .welcome {
     background-image: url('/assets/img/NG-Cruise-Header-BG-Repeat.png')
+  }
+  .welcome-sub {
+    line-height: 1.5;
   }
 }
 
