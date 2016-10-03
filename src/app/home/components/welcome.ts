@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
         <p>May 29, 2017!</p>
       </div>
       <div class="centerBlock">
-        <button class="main-btn grow" onclick="document.location='/#/home#tickets';return false;">Purchase</button>
+                <button class="main-btn grow" onclick="window.open('http://eepurl.com/cfYyWP','_blank');return false;">Signup</button> 
       </div>
       <div class="centerBlock">
         <button class="main-btn grow" onclick="window.open('https://goo.gl/forms/bbdH7XOcRtt6ciz23','_blank');return false;">Sponsor</button>
