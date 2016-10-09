@@ -1,9 +1,4 @@
-/* Include a custom font */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:500);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
-
 body {
-  font-family: "Ubuntu";
   padding-top: 111px; /* due to sticky top navigation */
   overflow-x: hidden; /* due to a bootstrap issue */
 }

@@ -1,11 +1,3 @@
-/* Include a custom font */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:500);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
-
-body {
-  font-family: "Ubuntu";
-}
-
 .section {
   color: #494956;
   border: 1px solid #2196F3;
