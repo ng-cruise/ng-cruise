@@ -5,7 +5,10 @@ import { Component } from '@angular/core';
   template: `
     <div class="section" id="tickets">Tickets</div>
     <div class="headline__body">
-      Please review our <a href="#/conduct">Code of Conduct</a> before your purchase. 
+      Please review our <a href="#/conduct">Code of Conduct</a> before your purchase.
+    </div>
+    <div class="headline__body">
+      <a href="#/convince-your-boss">Easy ways to convince your boss</a>.
     </div>
     <div class="col-s-12">
       <h4 class="centerBlock">Tickets opens 10/15/2016.</h4>
