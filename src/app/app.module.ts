@@ -15,6 +15,7 @@ import { App } from './app.component';
 import { AppState } from './app.service';
 import { Home } from './home';
 import { Conduct } from './conduct';
+import { Cruise } from './cruise';
 import { NoContent } from './no-content';
 
 import homeModule from './home';
@@ -34,7 +35,7 @@ const APP_PROVIDERS = [
   declarations: [
     App,
     NoContent,
-    Conduct,
+    Conduct, Cruise,
     Header, Footer
   ],
   imports: [ // import Angular's modules

@@ -164,3 +164,26 @@ a:active {
 q {
   font-style: italic;
 }
+
+.page {
+  margin-top: 50px;
+  padding: 0px 15px 0px 15px;
+}
+
+img.room {
+  max-width: 100%;
+  height: auto; 
+}
+
+@media only screen and (max-width : 480px) {
+  .carousel-caption h3 {
+    font-size: 16px;
+  }
+}
+
+.carousel {
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}

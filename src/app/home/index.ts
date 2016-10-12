@@ -18,6 +18,7 @@ import { Signup } from './components/signup';
 import { Tickets } from './components/tickets';
 import { Twitter } from './components/twitter';
 import { SectionFooter } from './components/section-footer';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { SectionFooter } from './components/section-footer';
     Home, Welcome, Contact, Schedule, Headline, HeadlineSection, Dates, Location, Organisers, Speakers, Sponsors, Profile, Signup, Tickets, Twitter, SectionFooter
   ],
   imports: [
-    CommonModule
+    CommonModule, RouterModule
   ],
   exports: [
     Home

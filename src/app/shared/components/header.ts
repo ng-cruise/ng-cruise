@@ -33,11 +33,14 @@ import { Component } from '@angular/core';
                 <div class="centerBlock"><a href="#" onclick="window.open('https://goo.gl/forms/bbdH7XOcRtt6ciz23','_blank');return false;" target="_blank">Sponsors</a></div>
               </div>
               <div class="col-xs-2 menu">
-                <div class="centerBlock"><a [routerLink]="['home']" fragment="location">Cruise</a></div>
+                <div class="centerBlock"><a [routerLink]="['cruise']" fragment="cruise">Cruise</a></div>
               </div>
             </div>
             <div class="visible-xs">
               <ul class="nav">
+                <li routerLinkActive="active">
+                  <a [routerLink]="['home']" fragment="top">Home</a>
+                </li>
                 <li routerLinkActive="active">
                   <a [routerLink]="['home']" fragment="speakers">Speakers</a>
                 </li>
@@ -48,7 +51,7 @@ import { Component } from '@angular/core';
                   <a href="#" onclick="window.open('https://goo.gl/forms/bbdH7XOcRtt6ciz23','_blank');return false;" target="_blank">Sponsors</a>
                 </li>
                 <li routerLinkActive="active">
-                  <a [routerLink]="['home']" fragment="location">Cruise</a>
+                  <a [routerLink]="['cruise']" fragment="cruise">Cruise</a>
                 </li>
               </ul>
             </div>

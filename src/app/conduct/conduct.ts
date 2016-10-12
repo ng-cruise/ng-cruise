@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'conduct',
   template: `
-    <div>
-      <div class="section" id="speakers">Code of Conduct</div>
+    <div class="page">
+      <div class="section" id="conduct">Code of Conduct</div>
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 conduct">

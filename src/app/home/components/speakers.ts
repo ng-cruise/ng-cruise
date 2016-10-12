@@ -5,9 +5,15 @@ import { Component } from '@angular/core';
   template: `
     <div class="section" id="speakers">Speakers</div>
     <div class="row">
-      <div class="col-s-12">
-        <h4 class="centerBlock">CFP opens 10/15/2016.</h4>
+      <div class="col-md-12">
+        <div class="centerBlock">
+          <button class="main-btn grow" onclick="window.open('https://goo.gl/forms/iwt83cXAnm9Wb7J52','_blank');return false;">CFP</button>
+        </div>
+        <div class="centerBlock">
+          <h4>CFP closes 1/15/2017.</h4>
+        </div>
       </div>
+    </div>
       <!-- <div class="col-md-4">
         <profile name="Pascal Precht" image="https://pbs.twimg.com/profile_images/740876520437211136/tpm5d6Ya_400x400.jpg">
           Pascal is a front-end engineer and a Angular Developer Expert nominated by Google. He created the angular-translate module, is an Angular 2 contributor and also part of the Angular 2 Docs Authoring team.
