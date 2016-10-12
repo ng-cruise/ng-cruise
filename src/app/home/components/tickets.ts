@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
     <div class="headline__body">
       Please review the <a [routerLink]="['/cruise']" fragment="cruise">Cruise Details</a> and our <a [routerLink]="['/conduct']" fragment="conduct">Code of Conduct</a> before your purchase. 
     </div>
+    <div class="headline__body">
+      <a href="#/convince-your-boss">Easy ways to convince your boss</a>.
+    </div>
     <div class="centerBlock">
       <button class="main-btn grow" onclick="window.open('https://ti.to/ngcruise/ngcruise17','_blank');return false;">Tickets</button>
     </div>
