@@ -3,13 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'convince-your-boss',
   template: `
-  <div>
+  <div class="page">
     <div class="section convince-your-boss" id="convince-your-boss">
       Convince Your Boss
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <h2>Getting Your Boss to Pay For Your Cruise</h2>
+      <div class="col-md-2"></div>
+      <div class="col-md-8 conduct">
+        <h3>Getting Your Boss to Pay For Your Cruise</h3>
         <ol>
           <li>Discuss the # of hours you’ll be in the conference, compare it to
           another conference to show that it’ll be just as educational as any
@@ -25,8 +26,6 @@ import { Component } from '@angular/core';
         </ol>
         <p>Break it down by various costs, and how to get them paid.</p>
         <p>Make several strategies based on the employee’s situation.</p>
-      </div>
-      <div class="col-md-12">
         <h3>How to get company reimbursement for ng-cruise</h3>
         <p>Getting your company to pay for training can be difficult enough
         even if they don’t think you’re going to have fun. Dealing with a boss
@@ -34,8 +33,6 @@ import { Component } from '@angular/core';
         difficult, but there are several techniques to get your conference
         covered by your company. Here are some tips to get approval for
         ng-cruise.</p>
-      </div>
-      <div class="col-md-12">
         <h4>1. Focus on the Conference</h4>
         <p>When approaching the decision maker, remember to focus on the fact
         that this is a conference, no different to any other developer
@@ -44,16 +41,12 @@ import { Component } from '@angular/core';
         be bringing those learned skills and knowledge back to your employer to
         their benefit. Whether you’re in a hotel or on a ship, the time you’re
         at the conference will be no different one way or the other.</p>
-      </div>
-      <div class="col-md-12">
         <h4>2. Remember the Networking Benefits</h4>
         <p>One of the benefits of attending a conference is meeting other
         people who can assist you with questions, and may even be interested in
         joining your company. So socializing at a conference is still a benefit
         to your employer. At ng-cruise there will be plenty of socializing
         opportunities that your employer can benefit from.</p>
-      </div>
-      <div class="col-md-12">
         <h4>3. Ask for Partial Reimbursement</h4>
         <p>In a typical two day conference, your employer might be paying for
         your flight, hotel, some food, and the conference ticket. Calculate the
@@ -61,8 +54,6 @@ import { Component } from '@angular/core';
         calculate them. Then ask for only that amount to be reimbursed, and you
         can cover the rest yourself. Remember that all your food is included
         while on the ship.</p>
-      </div>
-      <div class="col-md-12">
         <h4>4. Dealing with Time Away</h4>
         <p>Often one of the big concerns is taking 5 days or more off of work,
         where a typical conference will only be 2 or 3. Ng-cruise is the
@@ -70,13 +61,12 @@ import { Component } from '@angular/core';
         to be included, and take personal or vacation time for the other days
         you will be gone. For most people you will only be missing 5 days of
         work for ng-cruise.</p>
-      </div>
-      <div class="col-md-12">
         <h4>5. Your Own Idea</h4>
         <p>You know your employer best, so use these ideas to come up with your
         own strategy to maximize your reimbursement. We hope to see you at
         ng-cruise!</p>
       </div>
+      <div class="col-md-2"></div>
     </div>
   </div>
   `
