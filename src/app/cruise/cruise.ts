@@ -133,9 +133,6 @@ import { Component } from '@angular/core';
           restaurants onboard.&nbsp;</p>
           <p>There are pre paid beverage packages available &mdash; Please
           contact us (ngcruise@travelwithterra.com) for details.</p>
-          <h3>Booking Changes</h3>
-          <p>Cruise accommodations cannot be changed</p>
-          <p>Name changes are fine to do before 1st of February, 2017.</p>
           <h3>Ship Information</h3>
           <p><a href=
           "https://www.royalcaribbean.co.uk/our-ships/enchantment-of-the-seas/"

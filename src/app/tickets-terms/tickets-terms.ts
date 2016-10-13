@@ -29,6 +29,10 @@ import { Component } from '@angular/core';
             <li>Late bird ticket: <strong>$750</strong>. After 1st of May.</li>
           </ul>
 
+          <h3>Booking Changes</h3>
+          <p>Cruise accommodations cannot be changed</p>
+          <p>Name changes are fine to do before 1st of February, 2017.</p>
+
           <h3>Accommodation Tickets</h3>
           <p>This includes an accommodation package (room type) plus <strong>gratuities $54</strong> and pre-purchase <strong>WiFi $60</strong>. This ticket does not give you access to the conference.</p>
 
