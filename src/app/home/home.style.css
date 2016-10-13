@@ -271,12 +271,6 @@ img.left {
   margin-bottom: 100px;
 }
 
-
-.centerBlock {
-  display: table;
-  margin: 0 auto;
-}
-
 .headline__title {
   font-size: 36px;
   font-weight: bold;
@@ -403,30 +397,6 @@ img.left {
   .welcome-sub {
     line-height: 1.5;
   }
-}
-
-.main-btn {
-  position: relative;
-  padding: 5px 40px 5px 40px;
-  border: 5px solid #fff;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  background: #ffc300;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px 10px 10px 10px; /* spacing */
-}
-
-.main-btn:before {
-  content: " ";
-  position: absolute;
-  z-index: 6;
-  top: -10px;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  border: 5px solid #ffc300;
 }
 
 .location {

@@ -16,6 +16,7 @@ import { AppState } from './app.service';
 import { Home } from './home';
 import { Conduct } from './conduct';
 import { Cruise } from './cruise';
+import { TicketsTerms } from './tickets-terms';
 import { NoContent } from './no-content';
 
 import homeModule from './home';
@@ -35,7 +36,7 @@ const APP_PROVIDERS = [
   declarations: [
     App,
     NoContent,
-    Conduct, Cruise,
+    Conduct, Cruise, TicketsTerms,
     Header, Footer
   ],
   imports: [ // import Angular's modules

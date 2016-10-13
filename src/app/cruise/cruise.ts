@@ -38,6 +38,34 @@ import { Component } from '@angular/core';
             <li>Wednesday 2:30pm to 5:45pm</li>
             <li>Thursday 2:30pm to 5:45pm</li>
           </ul>
+<div class="carousel slide" data-ride="carousel" id="myCarousel" style="max-width:300px">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#myCarousel">
+                </li>
+                <li data-slide-to="1" data-target="#myCarousel"></li>
+                </ol><!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="room" alt="Spotlight Picture" src=
+                    "/assets/img/venue/spotlight_theater.jpg" style="max-width:300px">
+                </div>
+                <div class="item">
+                    <img class="room" alt="Spotlight Picture" src=
+                    "/assets/img/venue/spotlight_2.jpg" style="max-width:300px">
+                </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" data-slide="prev" href=
+                "#myCarousel" role="button"><span aria-hidden="true" class=
+                "glyphicon glyphicon-chevron-left"></span> <span class=
+                "sr-only">Previous</span></a> <a class="right carousel-control"
+                data-slide="next" href="#myCarousel" role=
+                "button"><span aria-hidden="true" class=
+                "glyphicon glyphicon-chevron-right"></span> <span class=
+                "sr-only">Next</span></a>
+                </div>
+
           <h3>What&rsquo;s&nbsp;Included</h3>
           <ol>
             <li><strong>Accommodation</strong>. In the room type chosen at time
@@ -57,47 +85,6 @@ import { Component } from '@angular/core';
           <h3>Not Included</h3>
           <ul>
             <li>Alcoholic drinks</li>
-          </ul>
-          <h3>Room Types</h3>
-            <div class="carousel slide" data-ride="carousel" id="myCarousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#myCarousel">
-                </li>
-                <li data-slide-to="1" data-target="#myCarousel"></li>
-                </ol><!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="room" alt="Oceanview Stateroom" src=
-                    "/assets/img/rooms/vis-oceanview-1.jpg">
-                    <div class="carousel-caption">
-                    <h3>Large Oceanview Stateroom</h3>
-                    <p class="hidden-xs">These larger staterooms offer a gorgeous view, two twin beds and a private bathroom.</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="room" alt="Interior Stateroom" src=
-                    "/assets/img/rooms/vis-interior-1.jpg">
-                    <div class="carousel-caption">
-                    <h3>Interior Stateroom</h3>
-                    <p class="hidden-xs">This standard stateroom offers two twin beds, a private bath and all the amenities of our standard staterooms.</p>
-                    </div>
-                </div>
-                </div>
-                <!-- Left and right controls -->
-                <a class="left carousel-control" data-slide="prev" href=
-                "#myCarousel" role="button"><span aria-hidden="true" class=
-                "glyphicon glyphicon-chevron-left"></span> <span class=
-                "sr-only">Previous</span></a> <a class="right carousel-control"
-                data-slide="next" href="#myCarousel" role=
-                "button"><span aria-hidden="true" class=
-                "glyphicon glyphicon-chevron-right"></span> <span class=
-                "sr-only">Next</span></a>
-            </div>
-          <p>Room Types</p>
-          <ul>
-            <li><strong>Large Oceanview Stateroom</strong> These larger staterooms offer a gorgeous view, two twin beds and a private bathroom. Two twin beds (can convert into queen-size), sitting area with sofa, vanity area and a private bathroom. Please note: Staterooms 3000-3014, 3500-3514, 2010-2014, & 2510-2514 have two portholes instead of a window. Approximate size 151.8 sq. ft.</li>
-            <li><strong>Interior Stateroom</strong> This standard stateroom offers two twin beds, a private bath and all the amenities of our standard staterooms. Two twin beds (can convert into queen-size), vanity area, and a private bathroom. Approximate size 132.4 sq. ft.</li>
           </ul>
           <h3>Dining&nbsp;Details</h3>
           <p>Enjoy a warm, full meal for breakfast and a multi-course feast for
@@ -147,14 +134,8 @@ import { Component } from '@angular/core';
           <p>There are pre paid beverage packages available &mdash; Please
           contact us (ngcruise@travelwithterra.com) for details.</p>
           <h3>Booking Changes</h3>
-          <p>Name changes are fine to do before the 14th March, 2017.</p>
-          <h3>Cruise Cancellation Schedule</h3>
-          <ul>
-            <li>Days prior to sailing: 74 to 43; $100 per guest; Last day: 15 Mar 2017</li>
-            <li>Days prior to sailing: 42 to 29; 50% per guest; Last day: 17 Apr 2017</li>
-            <li>Days prior to sailing: 28 to 15; 75% per guest; Last day: 1 May 2017</li>
-            <li>Days prior to sailing: 14 to 0; 100% per guest; Last day: 15 May 2017</li>
-          </ul>
+          <p>Cruise accommodations cannot be changed</p>
+          <p>Name changes are fine to do before 1st of February, 2017.</p>
           <h3>Ship Information</h3>
           <p><a href=
           "https://www.royalcaribbean.co.uk/our-ships/enchantment-of-the-seas/"

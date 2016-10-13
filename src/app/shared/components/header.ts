@@ -20,7 +20,7 @@ import { Component } from '@angular/core';
                 <div class="centerBlock" routerLinkActive="active"><a [routerLink]="['home']" fragment="speakers">Speakers</a></div>
               </div>
               <div class="col-xs-2 menu">
-                <div class="centerBlock"><a [routerLink]="['home']" fragment="tickets">Tickets</a></div>
+                <div class="centerBlock"><a [routerLink]="['/tickets-terms']" fragment="tickets-terms">Tickets</a></div>
               </div>
               <div class="col-xs-2">
                 <div class="centerBlock">
@@ -45,7 +45,7 @@ import { Component } from '@angular/core';
                   <a [routerLink]="['home']" fragment="speakers">Speakers</a>
                 </li>
                 <li routerLinkActive="active">
-                  <a [routerLink]="['home']" fragment="tickets">Tickets</a>
+                  <a [routerLink]="['/tickets-terms']" fragment="tickets-terms">Tickets</a>
                 </li>
                 <li routerLinkActive="active">
                   <a href="#" onclick="window.open('https://goo.gl/forms/bbdH7XOcRtt6ciz23','_blank');return false;" target="_blank">Sponsors</a>

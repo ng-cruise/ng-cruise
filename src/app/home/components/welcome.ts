@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
         <p>May 29, 2017!</p>
       </div>
       <div class="centerBlock">
-        <button class="main-btn grow" onclick="window.open('https://ti.to/ngcruise/ngcruise17','_blank');return false;">Tickets</button>
+        <button class="main-btn grow" [routerLink]="['/tickets-terms']" fragment="tickets-terms">Tickets</button>
       </div>
       <div class="centerBlock">
         <button class="main-btn grow" onclick="window.open('https://goo.gl/forms/bbdH7XOcRtt6ciz23','_blank');return false;">Sponsor</button>
