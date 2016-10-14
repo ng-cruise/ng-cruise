@@ -24,9 +24,9 @@ import { Component } from '@angular/core';
 
           <h4>Tickets Schedule</h4>
           <ul>
-            <li>Early bird ticket: <strong>$550</strong>. Only 50 tickets available until 1st of January.</li>
-            <li>Regular ticket: <strong>$650</strong>. Until 1st of May.</li>
-            <li>Late bird ticket: <strong>$750</strong>. After 1st of May.</li>
+            <li>Early bird ticket: <strong>$550 + 5% tito + 3% credit card</strong>. Only 50 tickets available until 1st of January.</li>
+            <li>Regular ticket: <strong>$650 + 5% tito + 3% credit card</strong>. Until 1st of May.</li>
+            <li>Late bird ticket: <strong>$750 + 5% tito + 3% credit card</strong>. After 1st of May.</li>
           </ul>
 
           <h3>Booking Changes</h3>
@@ -86,6 +86,9 @@ import { Component } from '@angular/core';
           
           <div class="centerBlock">
             <button class="main-btn" onclick="window.open('https://ti.to/ngcruise/ngcruise17','_blank');return false;">Buy</button>
+          </div>
+          <div class="centerBlock">
+            <h3><a href="#/faq#faq">FAQ</a></h3>
           </div>
         </div>
         <div class="col-md-2"></div>
