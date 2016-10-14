@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'cruise',
+    selector: 'tickets-terms',
     template: `
   <div class="page">
     <div class="section" id="tickets-terms">
