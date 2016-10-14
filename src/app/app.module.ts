@@ -17,6 +17,7 @@ import { Home } from './home';
 import { Conduct } from './conduct';
 import { Cruise } from './cruise';
 import { TicketsTerms } from './tickets-terms';
+import { Faq } from './faq';
 import { NoContent } from './no-content';
 
 import homeModule from './home';
