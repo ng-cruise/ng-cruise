@@ -6,23 +6,23 @@ import { Component } from '@angular/core';
     <div class="section" id="organisers">Organisers</div>
     <div class="row">
       <div class="col-md-3">
-        <profile name="Joe Eames" organiser="true" image="/assets/img/organisers/joe-eames.jpeg">
-          <a href="http://twitter.com/josepheames">@josepheames</a>
+        <profile name="Joe Eames" organiser="true" twitter="josepheames" image="/assets/img/organisers/joe-eames.jpeg">
+          <a href="http://twitter.com/josepheames" target="_blank">@josepheames</a>
         </profile>
       </div>
       <div class="col-md-3">
-        <profile name="Tracy Lee" organiser="true" image="/assets/img/organisers/tracy-lee.jpg">
-          <a href="http://twitter.com/ladyleet">@ladyleet</a>
+        <profile name="Tracy Lee" organiser="true" twitter="ladyleet" image="/assets/img/organisers/tracy-lee.jpg">
+          <a href="http://twitter.com/ladyleet" target="_blank">@ladyleet</a>
         </profile>
       </div>
       <div class="col-md-3">
-        <profile name="Gerard Sans" organiser="true" image="/assets/img/organisers/gerard-sans.jpg">
-          <a href="http://twitter.com/gerardsans">@gerardsans</a>
+        <profile name="Gerard Sans" organiser="true" twitter="gerardsans" image="/assets/img/organisers/gerard-sans.jpg">
+          <a href="http://twitter.com/gerardsans" target="_blank">@gerardsans</a>
         </profile>
       </div>
       <div class="col-md-3">
-        <profile name="Taras Mankovski" organiser="true" image="/assets/img/organisers/taras-mankovski.jpeg">
-          <a href="http://twitter.com/embersherpa">@embersherpa</a>
+        <profile name="Taras Mankovski" organiser="true" twitter="embersherpa" image="/assets/img/organisers/taras-mankovski.jpeg">
+          <a href="http://twitter.com/embersherpa" target="_blank">@embersherpa</a>
         </profile>
       </div>
     </div>
