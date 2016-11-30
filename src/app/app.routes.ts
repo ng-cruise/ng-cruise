@@ -6,10 +6,12 @@ import { ConvinceYourBoss } from './home/components/convince-your-boss';
 import { TicketsTerms } from './tickets-terms';
 import { Faq } from './faq';
 import { NoContent } from './no-content';
+import { Talks } from './talks';
 
 export const ROUTES: Routes = [
   { path: '', component: Home },
   { path: 'home', component: Home },
+  { path: 'talks', component: Talks },
   { path: 'conduct', component: Conduct },
   { path: 'cruise', component: Cruise },
   { path: 'convince-your-boss', component: ConvinceYourBoss },

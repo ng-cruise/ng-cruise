@@ -19,3 +19,14 @@ h1, .section {
   content: '';
   background-image: url('assets/img/title_bar.png');
 }
+
+.talk__tittle {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0583c9;
+}
+.talk__description{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 400px;
+}

@@ -18,11 +18,12 @@ import { Conduct } from './conduct';
 import { Cruise } from './cruise';
 import { TicketsTerms } from './tickets-terms';
 import { Faq } from './faq';
+import { Talks, Talk } from './talks';
 import { NoContent } from './no-content';
 
 import homeModule from './home';
-import { Footer } from './shared/components/footer';
-import { Header } from './shared/components/header';
+import { SharedModule } from './shared';
+
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -37,15 +38,15 @@ const APP_PROVIDERS = [
   declarations: [
     App,
     NoContent,
-    Conduct, Cruise, TicketsTerms,
-    Header, Footer
+    Conduct, Cruise, TicketsTerms, Talks, Talk,
   ],
   imports: [ // import Angular's modules
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES, { useHash: true }),
-    homeModule
+    homeModule,
+    SharedModule
   ],
   providers: [ // expose our Services and Providers into Angular's dependency injection
     ENV_PROVIDERS,

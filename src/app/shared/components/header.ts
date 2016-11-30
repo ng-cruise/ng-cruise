@@ -25,7 +25,7 @@ import { Component } from '@angular/core';
               <div class="col-xs-2">
                 <div class="centerBlock">
                   <div class="logo" [routerLink]="['home']" fragment="top">
-                    <div class="logo-icon centerBlock"><img src="assets/img/NG-Cruise-Logo-Normal.png"></div>
+                    <div class="logo-icon centerBlock"><img class="logo-img" src="assets/img/NG-Cruise-Logo-Normal.png"></div>
                   </div>
                 </div>
               </div>

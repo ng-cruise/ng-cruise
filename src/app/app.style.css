@@ -95,6 +95,7 @@ a:active {
 .navbar-custom {
   background-color:#fff;
   border-radius:0;
+  height: 162px;
 }
 .navbar-custom-shadow {
   -webkit-box-shadow: 0 8px 6px -6px #efefef;
@@ -224,4 +225,249 @@ img.room {
 .centerBlock {
   display: table;
   margin: 0 auto;
+}
+
+.talk__tittle {
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0583c9;
+  width: 400px;
+}
+.talk__description{
+  font-size: 18px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+/* bubbles */
+.clickable {
+  cursor: pointer;
+}
+.img-circle {
+  border-radius: 50%;
+  width: 196px;
+}
+.img-circle-lg {
+  border-radius: 50%;
+  width: 365px;
+}
+
+.circleBase {
+  border-radius: 50%;
+  width: 196px;
+  height: 196px;
+  position: relative;
+  background: #f2f2f2; 
+  margin-top: 50px;
+}
+.circleBase-lg {
+  border-radius: 50%;
+  width: 365px;
+  height: 365px;
+  position: relative;
+  background: #f2f2f2; 
+}
+
+.bubble {
+  z-index: 1;
+  border-radius: 50%;
+  border: 5px solid #3fa9f5;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  background: white;
+}
+
+.pos2 {
+  bottom: 15%;
+  right: -5px;  
+}
+.pos22 {
+  bottom: -15%;
+  right: -15px;
+}
+
+.pos1 {
+  top: 15%;
+  right: -5px;
+}
+
+.pos11 {
+  top: -15%;
+  right: -15px;
+}
+
+.pos3 {
+  bottom: 10%;
+}
+.pos33 {
+  bottom: -10%;
+}
+
+.pos4 {
+  top: 15%;
+  left: -5px;
+}
+.pos44 {
+  top: -15%;
+  left: -5px;
+}
+
+.big-bubble {
+  z-index: 1;
+  border-radius: 50%;
+  border: 5px solid #3fa9f5;
+  width: 81px;
+  height: 81px;
+  position: absolute;
+  background: white;
+}
+
+.img14-bubble {
+  background-image: url('/assets/img/14_small.png'); /* ball */
+  background-repeat: no-repeat;
+  background-position: 4px;
+  width: 81px;
+}
+
+.img34-bubble {
+  background-image: url('/assets/img/34_small.png'); /* camera */
+  background-repeat: no-repeat;
+  background-size: 58px;
+  background-position-x: 7px;
+  background-position-y: 15px;
+  width: 81px;
+}
+
+.img24-bubble {
+  background-image: url('/assets/img/24_small.png'); /* scuba googles */
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position-x: 10px;
+    background-position-y: 12px;
+    width: 81px;
+}
+
+.img39-bubble {
+  background-image: url('/assets/img/39_small.png'); /* scuba googles */
+  background-repeat: no-repeat;
+  background-size: 55px;
+  background-position-x: 8px;
+  background-position-y: 12px;
+  width: 81px;
+}
+
+.img11-bubble {
+  background-image: url('/assets/img/11_small.png'); /* sun glasses */
+  background-repeat: no-repeat;
+  background-size: 69px;
+  background-position-x: 1px;
+  background-position-y: 27px;
+  width: 81px;
+}
+
+.img5-bubble {
+  background-image: url('/assets/img/5_small.png'); /* star */
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position-x: 6px;
+  background-position-y: 5px;
+  width: 81px;
+}
+
+.org-bubble {
+  z-index: 1;
+  background-size: 68px;
+  background-position-x: 2px;
+  background-position-y: 15px;
+  height: 81px;
+  background-image: url('/assets/img/40_small.png'); /* captain */
+  background-repeat: no-repeat;
+}
+
+.profile {
+  width: 100px;
+}
+
+.profile__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #3fa9f5;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profile__twitter {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.profile__description {
+  font-size: 12px;
+  color: #354e59;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1055px) { 
+  .profile__description { 
+    margin-bottom: 25px;
+  }
+  .talk__tittle {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 349px;
+    text-align: center;
+  }
+  .talk__description {
+    margin-bottom: 50px;
+    width: 349px;
+    text-align: center;
+  }
+}
+
+.tag__container {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+  margin: 20px;
+}
+.tag__title {
+  padding: 2px;
+  border-radius: 21px;
+  background-color: #eee; /* ffdb84 */
+  margin-bottom: 5px;
+  color: #4a4952;
+}
+
+.zoom { 
+  -webkit-transition: all .2s ease-in-out; 
+  -moz-transition: all .2s ease-in-out; 
+  transition: all .2s ease-in-out; 
+  z-index: -1;
+}
+.zoom:hover { 
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: -1;
+}
+
+.logo-icon {
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.logo-img {
+  z-index: -1;  
+  position: absolute;
+  left: 50%;
+  top: 74px;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  -o-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
 }
