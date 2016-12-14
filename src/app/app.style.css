@@ -62,8 +62,11 @@ navbar {
   margin-bottom: 10px;
 }
 .logo {
+  cursor: pointer;
   margin-top: 10px;
   margin-bottom: 10px;
+  height: 147px;
+  width: 187px;
 }
 
 a {
@@ -227,14 +230,14 @@ img.room {
   margin: 0 auto;
 }
 
-.talk__tittle {
+.talk__tittle, .workshop__tittle {
   margin-top: 50px;
   font-size: 36px;
   font-weight: bold;
   color: #0583c9;
   width: 400px;
 }
-.talk__description{
+.talk__description, .workshop__description{
   font-size: 18px;
   width: 400px;
   margin-bottom: 50px;
@@ -426,6 +429,20 @@ img.room {
     width: 349px;
     text-align: center;
   }
+  .workshop__tittle {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 349px;
+    text-align: center;
+  }
+  .workshop__description {
+    margin-bottom: 50px;
+    width: 349px;
+    text-align: center;
+  }
+  .workshop__description ul {
+    text-align: left;
+  }
 }
 
 .tag__container {
@@ -458,7 +475,6 @@ img.room {
 
 .logo-icon {
   margin-bottom: 4px;
-  cursor: pointer;
 }
 
 .logo-img {
@@ -470,4 +486,62 @@ img.room {
   -moz-transform: translateY(-50%) translateX(-50%);
   -o-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
+}
+
+.workshop__description .main-btn {
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.panelists {
+  margin-bottom: 50px;
+}
+
+.credits {
+  margin-top: 50px;
+}
+
+.no-content {
+  padding: 150px;
+}
+
+.workshop__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0583c9;
+  text-align: center;
+}
+.workshop__body {
+  color: #354e59;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  max-width: 400px;
+  margin-top: 24px;
+  text-align: center;
+  _height: 170px;
+}
+.workshop__instructor{
+  font-size: 12px;
+  font-weight: bold;
+  color: #3fa9f5;
+  text-align: center;
+}
+
+.padb35 {
+  padding: 0 0 35px;
+  text-align: center;
+  width: 370px;
+}
+.mtb24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+workshops-section .col-md-4 {
+  margin-bottom: 30px;
+}
+
+.gap .profile {
+  margin-top: -40px;
 }

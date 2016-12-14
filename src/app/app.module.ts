@@ -19,6 +19,7 @@ import { Cruise } from './cruise';
 import { TicketsTerms } from './tickets-terms';
 import { Faq } from './faq';
 import { Talks, Talk } from './talks';
+import { Workshops, Workshop } from './workshops';
 import { NoContent } from './no-content';
 
 import homeModule from './home';
@@ -38,7 +39,7 @@ const APP_PROVIDERS = [
   declarations: [
     App,
     NoContent,
-    Conduct, Cruise, TicketsTerms, Talks, Talk,
+    Conduct, Cruise, TicketsTerms, Talks, Talk, Workshops, Workshop
   ],
   imports: [ // import Angular's modules
     BrowserModule,

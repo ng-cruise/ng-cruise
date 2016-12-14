@@ -89,6 +89,9 @@ img.left {
     -webkit-transition: background 3s ease-in-out;
     background-size: 302px 0px;
   }  
+  .navbar-custom {
+    height: auto;
+  }
 }
 
 .section-footer__sea {
@@ -206,12 +209,15 @@ img.left {
 .welcome-sub {
   font-size: 24px;
   color: #494956;
-  text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 1.8;
   padding-left: 10px;
   padding-right: 10px;
+}
+.welcome-body {
+  text-align: center;
+  width: 360px;
 }
 
 .welcome {
@@ -255,4 +261,3 @@ img.left {
   padding-right: 20px; 
   max-width: 400px;
 }
-

@@ -12,15 +12,11 @@ import { Component } from '@angular/core';
       <a href="#/convince-your-boss">Easy ways to convince your boss</a>.
     </div>
     <div class="centerBlock">
-      <button class="main-btn" [routerLink]="['/tickets-terms']" fragment="tickets-terms">Tickets</button>
+      <button class="main-btn grow" [routerLink]="['/tickets-terms']" fragment="tickets-terms">Tickets</button>
     </div>
     <div class="centerBlock">
       <h4>Tickets are non-refundable.</h4>
     </div>
-    <!-- 
-    <tito-widget event="ngcruise/ngcruise17"></tito-widget>
-    <tito-button event="ngcruise/ngcruise17"></tito-button> 
-    -->
     <section-footer left="assets/img/beach-umbrella.png" right="assets/img/35_small.png" bottomClass="section-footer__beach_lg hole"></section-footer>
   </div>`
 })

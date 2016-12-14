@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'talk',
+  selector: 'workshop',
   template: `
     <div class="row" id="{{twitter}}">
       <div class="col-md-3">
@@ -10,8 +10,8 @@ import { Component, Input } from '@angular/core';
       <div class="col-md-1"></div>
       <div class="col-md-8">
         <div class="centerBlock">
-          <div class="talk__tittle">{{tittle}}</div>
-          <div class="talk__description">
+          <div class="workshop__tittle">{{tittle}}</div>
+          <div class="workshop__description">
             <ng-content></ng-content> 
           </div>
         </div>
@@ -19,7 +19,7 @@ import { Component, Input } from '@angular/core';
     </div>
   `
 })
-export class Talk {
+export class Workshop {
   @Input() name: string;
   @Input() twitter: string;
   @Input() image: string;

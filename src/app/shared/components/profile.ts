@@ -12,7 +12,7 @@ import { Component, Input, ViewEncapsulation, ChangeDetectionStrategy } from '@a
       <div class="circleBase" *ngIf="!organiser">
         <div class="big-bubble {{getClass('a')}}"></div>
         <div class="bubble {{positionBubbles('b')}}"></div>
-        <img class="img-circle clickable zoom" [src]="image" [routerLink]="['/talks']" fragment="{{twitter}}">
+        <img class="img-circle clickable zoom" [src]="image" [routerLink]="[url]" fragment="{{twitter}}">
       </div>
       <div class="profile__title" *ngIf="organiser">{{title}}</div>
       <div class="profile__title" *ngIf="!organiser">

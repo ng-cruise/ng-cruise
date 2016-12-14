@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'no-content',
   template: `
-    <div>
-      <h1>404: page missing</h1>
+    <div class="no-content centerBlock">
+      <h1>Ups! Page got lost in the deep sea...</h1>
     </div>
   `
 })

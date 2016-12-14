@@ -7,11 +7,13 @@ import { TicketsTerms } from './tickets-terms';
 import { Faq } from './faq';
 import { NoContent } from './no-content';
 import { Talks } from './talks';
+import { Workshops } from './workshops';
 
 export const ROUTES: Routes = [
   { path: '', component: Home },
   { path: 'home', component: Home },
   { path: 'talks', component: Talks },
+  { path: 'workshops', component: Workshops },
   { path: 'conduct', component: Conduct },
   { path: 'cruise', component: Cruise },
   { path: 'convince-your-boss', component: ConvinceYourBoss },
