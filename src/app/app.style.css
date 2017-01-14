@@ -230,6 +230,10 @@ img.room {
   margin: 0 auto;
 }
 
+.talk__container {
+  margin-left: 50px;
+}
+
 .talk__tittle, .workshop__tittle {
   margin-top: 50px;
   font-size: 36px;
@@ -239,7 +243,7 @@ img.room {
 }
 .talk__description, .workshop__description{
   font-size: 18px;
-  width: 400px;
+  width: 550px;
   margin-bottom: 50px;
 }
 
@@ -417,6 +421,10 @@ img.room {
 @media (max-width: 1055px) { 
   .profile__description { 
     margin-bottom: 25px;
+  }
+  .talk__container {
+    display: table;
+    margin: 0 auto;
   }
   .talk__tittle {
     margin-top: 5px;
