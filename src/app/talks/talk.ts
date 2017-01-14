@@ -9,7 +9,7 @@ import { Component, Input } from '@angular/core';
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-8">
-        <div class="centerBlock">
+        <div class="talk__container">
           <div class="talk__tittle">{{tittle}}</div>
           <div class="talk__description">
             <ng-content></ng-content> 
