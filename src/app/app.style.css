@@ -183,6 +183,10 @@ q {
 img.room {
   max-width: 100%;
   height: auto; 
+  zoom: 10;
+  margin: auto;
+  max-height: 100%;
+  width: auto;
 }
 
 @media only screen and (max-width : 480px) {
@@ -247,7 +251,7 @@ img.room {
   color: #0583c9;
   width: 400px;
 }
-.talk__description, .workshop__description{
+.talk__description, .workshop__description {
   font-size: 18px;
   width: 550px;
   margin-bottom: 50px;
