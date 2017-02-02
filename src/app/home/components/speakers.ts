@@ -7,10 +7,7 @@ import { Component } from '@angular/core';
     <div class="row">
       <div class="col-md-12">
         <div class="centerBlock">
-          <button class="main-btn grow" onclick="window.open('https://goo.gl/forms/iwt83cXAnm9Wb7J52','_blank');return false;">CFP</button>
-        </div>
-        <div class="centerBlock">
-          <h4>CFP closes 1/15/2017.</h4>
+          <button class="main-btn grow" [routerLink]="['/schedule']" fragment="schedule">Schedule</button>
         </div>
       </div>
     </div>
@@ -22,12 +19,12 @@ import { Component } from '@angular/core';
     <div class="row">
       <div class="col-md-4">
         <profile name="Jeff Cross" twitter="jeffbcross" image="/assets/img/speakers/jeff_cross.jpg" url="/talks">
-          Jeff is a member of the Angular core team at Google, and leads the Angular Mobile team, focusing on making angular a great platform for building mobile applications. Jeff has an extensive background in open source software, marketing, and user experience design. When not in front of a computer, he spends his time doing whatever his kids tell him to do, which usually involves playing music or making gadgets.
+          Jeff Cross is a member of the Angular team, and co-founder of nrwl.io, providing Angular consulting to enterprise teams. Jeff was previously Tech Lead of the Angular Mobile team at Google. In his free time, Jeff hacks on various musical and electronics projects with his wife and three sons in Mountain View, California.
         </profile>
       </div>
       <div class="col-md-4">
         <profile name="Victor Savkin" twitter="victorsavkin" image="/assets/img/speakers/victor_savkin.jpg" url="/talks">
-          Victor makes Angular. He also toys with eclectic programming technologies and obsesses over fonts and keyboard layouts. Being a language nerd he spends a lot of his time playing with TypeScript, Dart, Elm, Haskell, and Clojure.
+          Victor Savkin is a member of the Angular team, and co-founder of nrwl.io, providing Angular consulting to enterprise teams. Victor was previously on the Angular core team at Google, and built the dependency injection, change detection, forms, and router modules. Victor lives in Toronto, Ontario, enjoys playing around with eclectic programming tech, and has a particular interest in fonts and keyboard layouts.
         </profile>
       </div>
       <div class="col-md-4">

@@ -8,11 +8,20 @@ import { Component } from '@angular/core';
           Talks
         </div>
         <div class="row">
+          <div class="col-md-12">
+            <div class="centerBlock mtb24">
+              <button class="main-btn grow" [routerLink]="['/schedule']" fragment="schedule">Schedule</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-8 talks">
-            <talk name="Jeff Cross" twitter="jeffbcross" tags="" tittle="Keynote" image="/assets/img/speakers/jeff_cross.jpg" url=".">
+            <talk name="Jeff Cross" twitter="jeffbcross" tags="Keynote; Mobile; Performance" tittle="Keynote. Top 5 Performance Mistakes of Angular Mobile Web Apps" image="/assets/img/speakers/jeff_cross.jpg" url=".">
+              More and more, we're seeing apps that are built for both desktop and mobile web. There are lots of patterns and optimizations available to make apps perform well on mobile web, but it's easy to implement incorrectly or completely cancel out optimizations by other design choices or mistakes. Jeff will point out common issues, and steps to take to fix (and prevent) them.
             </talk>
-            <talk name="Victor Savkin" twitter="victorsavkin" tags="" tittle="Keynote" image="/assets/img/speakers/victor_savkin.jpg" url=".">
+            <talk name="Victor Savkin" twitter="victorsavkin" tags="Keynote; State Management" tittle="Keynote. On the source of truth. How to manage state in Angular apps." image="/assets/img/speakers/victor_savkin.jpg" url=".">
+              Managing application state is a hard problem. How do we separate the derived state from the source of truth? There are a lot of approaches and tools we can use. Should we use Redux? What about GraphQL and RxJS? What does the routing fit in? In this talk we will explore these questions.
             </talk>
             <talk name="Ben Lesh" twitter="BenLesh" tags="RxJS; Angular 2" tittle="RxJS By Example" image="/assets/img/speakers/ben_lesh.jpg" url=".">
               You know what RxJS is, you know how to use Angular 2, but are you sure of how you should use them together? In this talk, we'll go over how to implement a real world feature in Angular 2 with RxJS that composes user interactions, animations, AJAX and cancellation at the same time.
