@@ -7,12 +7,14 @@ import { Component } from '@angular/core';
     <div class="row">
       <div class="col-md-12">
         <div class="centerBlock padb35">
-          <h4>Workshops will be run on <strong>June 3rd</strong> separately from the conference, after the cruise, in <strong>Miami</strong>.</h4>
+          <h4>Workshops will be run on <strong>June 3rd</strong> separately from the conference.</h4>
+          <h4>Schedule: 9am to 5pm</h4>
+          <h4>Location: PortMiami, Royal Caribbean HQ, 1080 Caribbean Way, Miami, FL 33132</h4>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 centerBlock">
+      <div class="col-md-6 centerBlock">
         <div class="workshop__title">RxJS By Example</div>
         <div class="workshop__instructor">by Ben Lesh</div>
         <div class="workshop__body centerBlock">
@@ -25,18 +27,7 @@ At the end of this course you'll have built an application that uses both HTTP a
           <button class="main-btn grow" onclick="window.open('https://ti.to/ngcruise/ngcruise17/with/omz-4qs7fqw','_blank');return false;">$499</button>
         </div>
       </div>
-      <div class="col-md-4 centerBlock">
-        <div class="workshop__title">Ultimate Angular 2</div>
-        <div class="workshop__instructor">by John Papa</div>
-        <div class="workshop__body centerBlock">
-          In this workshop you’ll learn all the fundamentals of Angular 2 such as how to get up and running quickly with Angular 2 and TypeScript, how to use reactive programming (RxJS) in your applications, how to communicate with the server, as well as how to use modern web development tools to get up and running with this amazing framework. By the time you're done with this course, you'll have the necessary knowledge and skills to begin using the framework immediately in your projects at work. <a [routerLink]="['/workshops']" fragment="John_Papa">More details...</a>
-        </div>
-        <div class="mtb24"></div>
-        <div class="centerBlock">
-          <button class="main-btn grow" onclick="window.open('https://ti.to/ngcruise/ngcruise17/with/lgt8gocom4u','_blank');return false;">$499</button>
-        </div>
-      </div>
-      <div class="col-md-4 centerBlock gap">
+      <div class="col-md-6 centerBlock gap">
         <div class="workshop__title">Angular 2 Testing<br/>Front to Back</div>
         <div class="workshop__instructor">by Joe Eames</div>
         <div class="workshop__body centerBlock">

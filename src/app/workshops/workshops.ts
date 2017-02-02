@@ -10,7 +10,9 @@ import { Component } from '@angular/core';
         <div class="row">
           <div class="col-md-12">
             <div class="centerBlock padb35">
-              <h4>Workshops will be run on <strong>June 3rd</strong> separately from the conference, after the cruise, in <strong>Miami</strong>.</h4>
+              <h4>Workshops will be run on <strong>June 3rd</strong> separately from the conference.</h4>
+              <h4>Schedule: 9am to 5pm</h4>
+              <h4>Location: PortMiami, Royal Caribbean HQ, 1080 Caribbean Way, Miami, FL 33132</h4>
             </div>
           </div>
         </div>
@@ -41,36 +43,6 @@ At the end of this course you'll have built an application that uses both HTTP a
               <div>8 hours</div>
               <div>
                 <button class="main-btn grow" onclick="window.open('https://ti.to/ngcruise/ngcruise17/with/omz-4qs7fqw','_blank');return false;">$499</button>
-              </div>
-            </workshop>
-
-            <workshop name="John Papa" twitter="John_Papa" tags="Angular 2" tittle="Ultimate Angular 2" image="/assets/img/speakers/john_papa.png" url="/workshops">
-              <h3>Brief</h3>
-              <div>
-                In this workshop you’ll learn all the fundamentals of Angular 2 such as how to get up and running quickly with Angular 2 and TypeScript, how to use reactive programming (RxJS) in your applications, how to communicate with the server, as well as how to use modern web development tools to get up and running with this amazing framework. By the time you're done with this course, you'll have the necessary knowledge and skills to begin using the framework immediately in your projects at work.
-              </div>
-              <h3>What You'll Learn</h3>
-              <div>
-                <ul>
-                  <li>Why use Angular 2?</li>
-                  <li>ES6/TypeScript core concepts</li>
-                  <li>Transpiling/compiling TypeScript to JavaScript</li>
-                  <li>Getting started with the Angular CLI</li>
-                  <li>Bootstrapping your application</li>
-                  <li>The Role of Components</li>
-                  <li>Using Decorators in Components (metadata)</li>
-                  <li>Dependency injection and providers</li>
-                  <li>Binding data to views</li>
-                  <li>Input and output properties</li>
-                  <li>Managing remote data calls using services</li>
-                  <li>Http and RxJS Observables</li>
-                  <li>Routing and page navigation</li>
-                </ul>
-              </div>
-              <h3>Duration</h3>
-              <div>8 hours</div>
-              <div>
-                <button class="main-btn grow" onclick="window.open('https://ti.to/ngcruise/ngcruise17/with/lgt8gocom4u','_blank');return false;">$499</button>
               </div>
             </workshop>
 
