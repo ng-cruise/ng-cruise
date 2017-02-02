@@ -117,6 +117,12 @@ a:active {
   color:#eeeeee;
 }
 
+@media (max-width: 768px) { 
+  .navbar-custom {
+    height: auto;
+  }
+}
+
 .grow {
   display: inline-block;
   vertical-align: middle;
@@ -267,6 +273,7 @@ img.room {
   position: relative;
   background: #f2f2f2; 
   margin-top: 50px;
+  z-index: 1;
 }
 .circleBase-lg {
   border-radius: 50%;
@@ -546,10 +553,21 @@ img.room {
   margin-bottom: 24px;
 }
 
-workshops-section .col-md-4 {
+workshops-section .col-md-6 {
   margin-bottom: 30px;
 }
 
 .gap .profile {
   margin-top: -40px;
+}
+
+.entry__tittle {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0583c9;
+}
+.entry__description {
+  font-size: 18px;
+  width: 550px;
+  margin-bottom: 50px;
 }

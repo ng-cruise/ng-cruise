@@ -82,6 +82,7 @@ img.left {
   -webkit-transition: background 3s ease-in-out;
 }
 
+
 @media (max-width: 768px) { 
   .section-footer__beach_lg {
     background-image: url('/assets/img/hole.png');
@@ -89,9 +90,6 @@ img.left {
     -webkit-transition: background 3s ease-in-out;
     background-size: 302px 0px;
   }  
-  .navbar-custom {
-    height: auto;
-  }
 }
 
 .section-footer__sea {
@@ -260,4 +258,11 @@ img.left {
   padding-left: 20px;
   padding-right: 20px; 
   max-width: 400px;
+}
+
+.tickets__body h4 {
+  font-size: 18px;
+  color: #354e59;
+  text-align: center;
+  line-height: 1.3;
 }

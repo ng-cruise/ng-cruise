@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   template: `
   <div>
     <div class="section" id="tickets">Tickets</div>
+    <div class="tickets__body">
+      <h4>2 Keynotes, 14 Angular talks, 4 Angular Panels<br/>
+      3 Interactive Angular Sessions, Unconference Sessions<br/>
+      and ONE BILLION Angular Games!</h4>
+    </div>
     <div class="headline__body">
       Please review the <a [routerLink]="['/cruise']" fragment="cruise">Cruise Details</a> and our <a [routerLink]="['/conduct']" fragment="conduct">Code of Conduct</a> before your purchase. 
     </div>

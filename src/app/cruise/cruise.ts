@@ -11,27 +11,30 @@ import { Component } from '@angular/core';
       <div class="col-md-2"></div>
       <div class="col-md-8 conduct">
         <div>
+          <h3>Important</h3>
+          <p>We recommend you being at the dock before 1PM to check in. Check in starts at 11:30AM until 2:00PM. We also recommend you to check-in online before boarding, this will greatly expedite the process. Remember also to bring a valid Passport.</p>
           <h3>Cruise Itinerary</h3>
-          <h4>Day 1&ndash;29th May &mdash; Departs Miami at&nbsp;4pm&nbsp;</h4>
+          <h4>Day 1&ndash;29th May &mdash; Departs Miami at 4pm (CHECKIN BY 1PM)</h4>
           <p>Miami is a major cosmopolitan city with world-renowned beaches,
           unrivaled nightlife and Latin flavor.</p>
           <h4>Day 2&ndash;30th May &mdash; Nassau, Bahamas (8am
-          till&nbsp;11:59pm)</h4>
+          till 11:59pm)</h4>
           <p>With dazzling beaches, turquoise waters and vibrant Junkanoo
           culture, Nassau is a great place to sun and sightsee.</p>
           <h4>Day 3&ndash;31st May &mdash; CocoCay, Bahamas (8am
-          till&nbsp;5pm)&nbsp;</h4>
+          till 5pm)</h4>
           <p>Royal Caribbean&rsquo;s private island &mdash; Lots of activities
           including snorkeling, kayaking, jet-ski rentals, aqua park &amp;
           nature walks</p>
           <h4>Day 4&ndash;01st June &mdash; Key West, Florida (10am
-          till&nbsp;6pm)</h4>
+          till 6pm)</h4>
           <p>The southernmost city in the USA is laid-back, eclectic and
           brimming with island charm. Discover Key West&rsquo;s 19th-century
           character in Old Town, whose leafy streets are lined with Victorian
           homes, quaint cottages and grand mansions.</p>
-          <h4>Day 5&ndash; 2nd June &mdash; Arrives Miami at&nbsp;7:30am</h4>
-          <h3>Conference Timings (Spolight&nbsp;Theatre)</h3>
+          <h4>Day 5&ndash; 2nd June &mdash; Arrives Miami at 7:30am</h4>
+          <h4>Day 6&ndash; 3rd June &mdash; Workshops from 9am to 5pm (requires registration)</h4>
+          <h3>Conference Timings (Spotlight Theatre)</h3>
           <ul>
             <li>Monday 4:15pm to 5:45pm</li>
             <li>Tuesday 8:00am to 3:00pm</li>
@@ -66,7 +69,7 @@ import { Component } from '@angular/core';
                 "sr-only">Next</span></a>
                 </div>
 
-          <h3>What&rsquo;s&nbsp;Included</h3>
+          <h3>What&rsquo;s Included</h3>
           <ol>
             <li><strong>Accommodation</strong>. In the room type chosen at time
             of booking</li>
@@ -86,7 +89,7 @@ import { Component } from '@angular/core';
           <ul>
             <li>Alcoholic drinks</li>
           </ul>
-          <h3>Dining&nbsp;Details</h3>
+          <h3>Dining Details</h3>
           <p>Enjoy a warm, full meal for breakfast and a multi-course feast for
           dinner in the Main Dining Room</p>
           <p>Options abound in the <strong>Windjammer
@@ -94,7 +97,7 @@ import { Component } from '@angular/core';
           meal.</p>
           <p>Meals from many onboard venues, such as the Main Dining Room and
           <strong>Windjammer Caf&eacute;</strong>, are included in the price of
-          your cruise.&nbsp;</p>
+          your cruise. </p>
           <p>Our Specialty Restaurants &mdash; like Chops Grille &mdash; offer
           amazing food in a restaurant atmosphere.</p>
           <p>There is a service charge per person to dine at <strong>Chops
@@ -118,19 +121,19 @@ import { Component } from '@angular/core';
           <h3>Beverages</h3>
           <p>Guests wishing to bring personal wine and champagne onboard may do
           so only on boarding day, limited to two (2) 750 ml bottles per
-          stateroom.&nbsp;</p>
+          stateroom. </p>
           <p>Additional bottles of wine beyond two (2) bottles that are brought
           onboard or any alcoholic beverages purchased in ports of call or from
           Shops On Board will be stored by the ship and delivered to your
           stateroom on the last day of the sailing. Wine may be consumed in any
           shipboard restaurant, dining venue, or within the guests&rsquo;
-          stateroom.&nbsp;</p>
+          stateroom. </p>
           <p><strong>Wine brought onboard may not be shared for consumption in
           private group events, and/or in lounges made private for the
           exclusive use of a group.</strong></p>
           <p><strong>Alcohol is not included in the price of the
           cruise</strong> &mdash; It may be purchased at the bars and
-          restaurants onboard.&nbsp;</p>
+          restaurants onboard. </p>
           <p>There are pre paid beverage packages available &mdash; Please
           contact us (ngcruise@travelwithterra.com) for details.</p>
           <h3>Ship Information</h3>
@@ -142,7 +145,7 @@ import { Component } from '@angular/core';
             <li>Tonnage: 81,000</li>
             <li>Length: 989 feet</li>
             <li>Cruising Speed: 22 knots ( 25.3 mph)</li>
-            <li>Entered Service: July 13, 1997&nbsp;</li>
+            <li>Entered Service: July 13, 1997 </li>
             <li>Last Refurbished: December 2012</li>
           </ul>
           <h3>Useful Resources</h3>
