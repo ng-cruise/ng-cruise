@@ -18,8 +18,10 @@ import { Conduct } from './conduct';
 import { Cruise } from './cruise';
 import { TicketsTerms } from './tickets-terms';
 import { Faq } from './faq';
+import { ConvinceYourBoss } from './home/components/convince-your-boss';
 import { Talks, Talk } from './talks';
 import { Workshops, Workshop } from './workshops';
+import { Schedule } from './schedule';
 import { NoContent } from './no-content';
 
 import homeModule from './home';
@@ -39,7 +41,7 @@ const APP_PROVIDERS = [
   declarations: [
     App,
     NoContent,
-    Conduct, Cruise, TicketsTerms, Talks, Talk, Workshops, Workshop
+    Conduct, Cruise, TicketsTerms, Talks, Talk, Workshops, Workshop, Schedule, Faq, ConvinceYourBoss
   ],
   imports: [ // import Angular's modules
     BrowserModule,
