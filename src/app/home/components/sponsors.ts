@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
       <div class="col-md-12">
         <div class="centerBlock partner">
           <div class="centerBlock partner__logo">
-            <a href="https://rangle.io" target="_blank"><img class="img-partner zoom" src="/assets/img/sponsors/partners/rangleio.png"></a>
+            <a href="https://rangle.io" target="_blank"><img class="img-partner zoom3" src="/assets/img/sponsors/partners/Rangleio.png"></a>
           </div>
           <div class="partner__name" style="margin-top:0px">Rangle.io</div>
         </div>
@@ -42,9 +42,9 @@ import { Component } from '@angular/core';
       <div class="col-md-3">
         <div class="centerBlock partner">
           <div class="centerBlock partner__logo">
-            <a href="http://thisdot.co/media" target="_blank"><img class="img-community zoom2" src="/assets/img/sponsors/community/logo-this-dot.jpg"></a>
+            <a href="http://thisdot.co/labs" target="_blank"><img class="img-community zoom2" src="/assets/img/sponsors/partners/this-dot-labs.png"></a>
           </div>
-          <div class="partner__name">This Dot Media</div>
+          <div class="partner__name">This Dot Labs</div>
         </div>
       </div>
     </div>
