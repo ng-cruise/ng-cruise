@@ -13,7 +13,7 @@ import { Location } from './components/location';
 import { Organisers } from './components/organisers';
 import { Speakers } from './components/speakers';
 import { WorkshopsSection } from './components/workshops';
-import { Sponsors } from './components/sponsors';
+import { SponsorsHome } from './components/sponsors';
 import { Signup } from './components/signup';
 import { Tickets } from './components/tickets';
 import { Twitter } from './components/twitter';
@@ -24,7 +24,7 @@ import { SharedModule } from '../shared';
 @NgModule({
   declarations: [
     // Components / Directives/ Pipes
-    Home, Welcome, Contact, Schedule, Headline, HeadlineSection, Dates, Location, Organisers, Speakers, WorkshopsSection, Sponsors, Signup, Tickets, Twitter, SectionFooter
+    Home, Welcome, Contact, Schedule, Headline, HeadlineSection, Dates, Location, Organisers, Speakers, WorkshopsSection, SponsorsHome, Signup, Tickets, Twitter, SectionFooter
   ],
   imports: [
     CommonModule, RouterModule, SharedModule

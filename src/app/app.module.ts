@@ -22,6 +22,7 @@ import { ConvinceYourBoss } from './home/components/convince-your-boss';
 import { Talks, Talk } from './talks';
 import { Workshops, Workshop } from './workshops';
 import { Schedule } from './schedule';
+import { Sponsors } from './sponsors';
 import { NoContent } from './no-content';
 
 import homeModule from './home';
@@ -41,7 +42,7 @@ const APP_PROVIDERS = [
   declarations: [
     App,
     NoContent,
-    Conduct, Cruise, TicketsTerms, Talks, Talk, Workshops, Workshop, Schedule, Faq, ConvinceYourBoss
+    Conduct, Cruise, TicketsTerms, Talks, Talk, Workshops, Workshop, Schedule, Faq, ConvinceYourBoss, Sponsors
   ],
   imports: [ // import Angular's modules
     BrowserModule,
