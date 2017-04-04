@@ -188,6 +188,19 @@ img.room {
   max-height: 100%;
   width: auto;
 }
+@media only screen and (max-width : 480px) {
+  img.room {
+    zoom: normal;
+  }
+}
+
+img.room2 {
+  max-width: 100%;
+  height: auto; 
+  margin: auto;
+  max-height: 100%;
+  width: auto;
+}
 
 @media only screen and (max-width : 480px) {
   .carousel-caption h3 {

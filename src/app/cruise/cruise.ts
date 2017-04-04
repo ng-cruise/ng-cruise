@@ -50,11 +50,11 @@ import { Component } from '@angular/core';
                 </ol><!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="room" alt="Spotlight Picture" src=
+                    <img class="room2" alt="Spotlight Picture" src=
                     "/assets/img/venue/spotlight_theater.jpg" style="max-width:300px">
                 </div>
                 <div class="item">
-                    <img class="room" alt="Spotlight Picture" src=
+                    <img class="room2" alt="Spotlight Picture" src=
                     "/assets/img/venue/spotlight_2.jpg" style="max-width:300px">
                 </div>
                 </div>

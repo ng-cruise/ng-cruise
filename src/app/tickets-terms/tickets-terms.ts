@@ -47,7 +47,7 @@ import { Component } from '@angular/core';
                 <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img class="room" alt="Oceanview Stateroom" src=
-                    "/assets/img/rooms/vis-oceanview-1.jpg">
+                    "/assets/img/rooms/vis-oceanview-2.jpg">
                     <div class="carousel-caption">
                     <h3>Large Oceanview Stateroom</h3>
                     <p class="hidden-xs">These larger staterooms offer a gorgeous view, two twin beds and a private bathroom.</p>
@@ -55,7 +55,7 @@ import { Component } from '@angular/core';
                 </div>
                 <div class="item">
                     <img class="room" alt="Interior Stateroom" src=
-                    "/assets/img/rooms/vis-interior-1.jpg">
+                    "/assets/img/rooms/vis-interior-2.jpg">
                     <div class="carousel-caption">
                     <h3>Interior Stateroom</h3>
                     <p class="hidden-xs">This standard stateroom offers two twin beds, a private bath and all the amenities of our standard staterooms.</p>
@@ -83,7 +83,7 @@ import { Component } from '@angular/core';
             <li><strong>Shared</strong>. Max 2 persons per cabin. You need to fill in the Full Name of a person to be matched with or state your preferences during registration. For 3 and 4 occupancy contact <a href="mailto:ngcruise@travelwithterra">ngcruise@travelwithterra.com</a> within 7 days of booking.</li>
             <li><strong>Individual use</strong>. You also have the option to have the room without pairing.</li>
           </ul>
-          
+
           <div class="centerBlock">
             <button class="main-btn" onclick="window.open('https://ti.to/ngcruise/ngcruise17','_blank');return false;">Buy</button>
           </div>
