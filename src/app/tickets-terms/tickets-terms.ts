@@ -84,6 +84,31 @@ import { Component } from '@angular/core';
             <li><strong>Individual use</strong>. You also have the option to have the room without pairing.</li>
           </ul>
 
+          <h3>Shore Excursions</h3>
+          <p>We have picked few excursions that you can book separately to experience each destination in a whole new way.</p>
+
+          <h4>Our Selection</h4>
+          <ul>
+            <li><strong>Walking Adventure (Nassau, Day 2)</strong>. <strong>Duration</strong>: 2h 30min. <br/><br/>Enjoy a panoramic drive through the bustling heart of Nassau.  Your journey begins with a drive into town via the shopping district of Bay Street, past the Native Market en route to Fort Charlotte.  Built in 1787 to protect the harbour from pirates, the fort was a bastion of law and order in this colonial frontier of the "New World".  From the ramparts is a breathtaking panorama.<br/>
+
+            You will also travel over the Paradise Island Bridge, which takes you to the world famous Paradise Island where you will drive past the the beautiful Cloister Gardens.  En route back to your ship in Nassau you will take a journey through the outskirts of the city, where you can see the colorful residential areas.<br/><br/></li>
+
+            <li><strong>Snorkeling Experience (CocoCay, Day 3)</strong>. <strong>Duration</strong>: 2h 30min. <br/><br/>Get ready for a fun-filled snorkeling and relaxing getaway. Your guided hour-long snorkeling tour takes you by boat to a beautiful coral reef system close to Coco Cay. Your professional snorkel instructors will provide snorkel gear and instruction. <br/>
+
+            Once you’re in the turquoise water, you’ll see plenty of fish and some beautiful coral reefs. Watch as schools of snappers, flounder, parrotfish, and mackerel swim around you and the coral reef system. Afterwards, go for swim in the shallow waters near the sandbar, or relax on a floating chair with a refreshing tropical drink.<br/><br/></li>
+
+            <li><strong>Food Extravaganza (Key West, Day 4)</strong>. <strong>Duration</strong>: 2h. <br/><br/>Enjoy a tasting adventure along Key West’s palm-lined streets sampling a variety of local favorites at three eateries. You’ll walk to the Smokin’Tuna Saloon, a Key West style compound canopied with banyan and ficus trees. Savor a sampling of housemade shrimp ceviche, smoked tuna fish dip and golden fried conch fritters. <br/>
+
+            Next, spice up your life with a visit to Pepper's of Key West, considered by many to be the best hot sauce store in the world for a tasting menu of dips and salsas. Cool down your palate with a stop at Kermit's Key Lime Shoppe for a slice of his classic pie or his signature frozen key lime pie dipped in Belgian chocolate, acclaimed the best by Food Network, National Geographic, Paula Deen and others. Maybe Kermit will share his recipe before you follow your guide back to the pier.</li>
+          </ul>
+
+          <h4>Excursion Prices</h4>
+          <ul>
+            <li>Nassau Walking Adventure: <strong>$35 + 5% tito + 3% credit card</strong>.</li>
+            <li>CocoCay Snorkeling Experience: <strong>$55 + 5% tito + 3% credit card</strong>.</li>
+            <li>Key West Food Extravaganza: <strong>$45 + 5% tito + 3% credit card</strong>.</li>
+          </ul>
+          
           <div class="centerBlock">
             <button class="main-btn" onclick="window.open('https://ti.to/ngcruise/ngcruise17','_blank');return false;">Buy</button>
           </div>
