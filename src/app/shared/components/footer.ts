@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
   selector: 'myfooter',
   template: `
     <div class="myfooter centerBlock">
+      <a [routerLink]="['/conduct']" fragment="conduct">Code of Conduct</a><br/><br/>
+
       <a href="https://twitter.com/ngcruise" target="_blank">@ngcruise</a>
       | <a href="mailto:howdy@ngcruise.com">howdy@ngcruise.com</a><br/>
       <div class="credits centerBlock">
