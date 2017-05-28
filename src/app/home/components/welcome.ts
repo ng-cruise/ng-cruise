@@ -12,11 +12,8 @@ import { Component } from '@angular/core';
         Workshops by <a [routerLink]="['/workshops']" fragment="BenLesh">Ben Lesh</a> and <a [routerLink]="['/workshops']" fragment="josepheames">Joe Eames</a>!</p><div>
       </div>
       <div class="centerBlock">
-        <button class="main-btn grow" [routerLink]="['/tickets-terms']" fragment="tickets-terms">Tickets</button>
-      </div>
-      <div class="centerBlock">
-        <button class="main-btn grow" onclick="window.open('https://goo.gl/forms/bbdH7XOcRtt6ciz23','_blank');return false;">Sponsor</button>
-      </div>
+          <button class="main-btn grow" [routerLink]="['/schedule']" fragment="schedule">Schedule</button>
+        </div>
     </div>
   `
 })

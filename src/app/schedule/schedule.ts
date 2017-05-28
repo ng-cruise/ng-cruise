@@ -41,12 +41,23 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i> May 29, <i class="fa fa-clock-o"></i> 11:30PM - 2PM</h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> May 29, <i class="fa fa-clock-o"></i> 11AM - 2PM</h5>
                 <h3>Boarding</h3>
               </div>
             </div>
           </li><!--Welcome-->
           <li class="timeline-inverted">
+            <div class="timeline-badge">
+              <i aria-hidden="true" class="fa fa-id-badge"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;<span style="font-family: filson-soft, sans-serif;">May 29,</span><span style="font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-family: filson-soft, sans-serif;">&nbsp;2:45</span><span style="font-family: filson-soft, sans-serif;">PM - 3:15PM</span></i></h5>
+                <h3>Registration</h3>
+              </div>
+            </div>
+          </li>
+          <li>
             <div class="timeline-badge">
               <i aria-hidden="true" class="fa fa-heart"></i>
             </div>
@@ -57,25 +68,26 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </li>
-          <li>
+
+          <li class="timeline-inverted">
             <div class="timeline-badge">
               <i class="fa fa-star-o"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 29,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;4:30</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">PM - 5:00PM</span></i></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 29,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;4:30</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">PM - 5PM</span></i></h5>
                 <h3>Keynote</h3>
               </div>
               <div class="timeline-body"></div>
             </div>
           </li>
-          <li class="timeline-inverted">
+          <li>
             <div class=" timeline-badge">
               <i class="fa fa-microphone"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 29,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;5:00</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">PM - 5:30PM</span></i></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 29,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;5</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">PM - 5:30PM</span></i></h5>
                 <a [routerLink]="['/talks']" fragment="castillo__io"><h3 style="font-family: filson-soft, sans-serif; ">NeuroJavascript II: Experimenting with thoughts via JavaScript</h3></a>
               </div>
               <div class="timeline-body">
@@ -84,7 +96,7 @@ import { Component } from '@angular/core';
               
             </div>
           </li>
-          <li>
+          <li class="timeline-inverted">
             <div class="timeline-badge">
               <i class="fa fa-star-o"></i>
             </div>
@@ -96,7 +108,22 @@ import { Component } from '@angular/core';
               <div class="timeline-body"></div>
             </div>
           </li>
+
           <li>
+            <div class=" timeline-badge">
+              <i class="fa fa-cutlery"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 29,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;6:30</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">PM - 7:30PM</span></i></h5>
+                <h3 style="font-family: filson-soft, sans-serif; ">Dinner</h3>
+              </div>
+              
+            </div>
+          </li>
+
+
+          <li class="timeline-inverted">
             <div class=" timeline-badge">
               <i class="fa fa-flask"></i>
             </div>
@@ -158,10 +185,12 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;8:45A</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 9:15AM</span></i></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Air LIVE - An Interactive Panel</h3>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;8:45A</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 9AM</span></i></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">The Angular Talk Show </h3>
               </div>
-              <div class="timeline-body"></div>
+              <div class="timeline-body">
+                <p>Joe Eames and Aaron Frost</p>
+              </div>
             </div>
           </li>
           <li>
@@ -170,20 +199,25 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;9:15A</span><span style="font-size: inherit;">M - 9:45AM</span></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Talk</h3>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;9A</span><span style="font-size: inherit;">M - 9:30AM</span></h5>
+                <a [routerLink]="['/talks']" fragment="BenLesh"><h3 style="font-family: filson-soft, sans-serif;">RxJS By Example</h3></a>
               </div>
-              <div class="timeline-body"></div>
+              <div class="timeline-body">
+                <p>Ben Lesh</p>
+              </div>
             </div>
           </li>
           <li class="timeline-inverted">
             <div class=" timeline-badge">
-              <i class="fa fa-flash"></i>
+              <i class="fa fa-microphone"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;9:45A</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 10:15AM</span></i></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Lightning talks</h3>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;9:30A</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 10AM</span></i></h5>
+                <a [routerLink]="['/talks']" fragment="UriShaked"><h3 style="font-family: filson-soft, sans-serif;">Dancing with Robots</h3></a>
+              </div>
+              <div class="timeline-body">
+                <p>Uri Shaked</p>
               </div>
             </div>
           </li>
@@ -193,7 +227,7 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;10:15A</span><span style="font-size: inherit;">M - 10:45AM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;10A</span><span style="font-size: inherit;">M - 10:30AM</span></h5>
                 <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Break</h3>
               </div>
               <div class="timeline-body"></div>
@@ -201,22 +235,11 @@ import { Component } from '@angular/core';
           </li>
           <li class="timeline-inverted">
             <div class=" timeline-badge">
-              <i class="fa fa-trophy"></i>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;10:45A</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 11:15AM</span></i></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Jeopardy</h3>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class=" timeline-badge">
               <i class="fa fa-microphone"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;11:15A</span><span style="font-size: inherit;">M - 11:45AM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;10:30A</span><span style="font-size: inherit;">M - 11AM</span></h5>
                 <a [routerLink]="['/talks']" fragment="Brocco"><h3 style="font-family: filson-soft, sans-serif;">Angular-CLI</h3></a>
               </div>
               <div class="timeline-body">
@@ -224,7 +247,29 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </li>
+          <li>
+            <div class=" timeline-badge">
+              <i class="fa fa-trophy"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;11A</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 11:15AM</span></i></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Jeopardy</h3>
+              </div>
+            </div>
+          </li>
           <li class="timeline-inverted">
+            <div class=" timeline-badge">
+              <i class="fa fa-comments-o"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;11:15A</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 11:45AM</span></i></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Air LIVE - An Interactive Panel</h3>
+              </div>
+            </div>
+          </li>
+          <li>
             <div class=" timeline-badge">
               <i class="fa fa-cutlery"></i>
             </div>
@@ -235,21 +280,18 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </li>
-          <li>
+          <li class="timeline-inverted">
             <div class=" timeline-badge">
-              <i class="fa fa-microphone"></i>
+              <i class="fa fa-flash"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;1P</span><span style="font-size: inherit;">M - 1:30PM</span></h5>
-                <a [routerLink]="['/talks']" fragment="schwarty"><h3 style="font-family: filson-soft, sans-serif;">Bond or Bourne? Furiosa or Rey? What We Really Want to Know Is...Template or Reactive?</h3></a>
-              </div>
-              <div class="timeline-body">
-                <p>Justin Schwartzenberger</p>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;1P</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 2PM</span></i></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Lightning Talks</h3>
               </div>
             </div>
           </li>
-          <li>
+          <li class="timeline-inverted">
             <div class=" timeline-badge">
               <i class="fa fa-keyboard-o"></i>
             </div>
@@ -263,20 +305,6 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </li>
-          <li class="timeline-inverted">
-            <div class=" timeline-badge">
-              <i class="fa fa-microphone"></i>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;1:30P</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 2PM</span></i></h5>
-                <a [routerLink]="['/talks']" fragment="UriShaked"><h3 style="font-family: filson-soft, sans-serif;">Dancing with Robots</h3></a>
-              </div>
-              <div class="timeline-body">
-                <p>Uri Shaked</p>
-              </div>
-            </div>
-          </li>
           <li>
             <div class=" timeline-badge">
               <i class="fa fa-microphone"></i>
@@ -284,10 +312,10 @@ import { Component } from '@angular/core';
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;2P</span><span style="font-size: inherit;">M - 2:30PM</span></h5>
-                <a [routerLink]="['/talks']" fragment="BenLesh"><h3 style="font-family: filson-soft, sans-serif;">RxJS By Example</h3></a>
+                <a [routerLink]="['/talks']" fragment="schwarty"><h3 style="font-family: filson-soft, sans-serif;">Bond or Bourne? Furiosa or Rey? What We Really Want to Know Is...Template or Reactive?</h3></a>
               </div>
               <div class="timeline-body">
-                <p>Ben Lesh</p>
+                <p>Justin Schwartzenberger</p>
               </div>
             </div>
           </li>
@@ -297,12 +325,13 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 30,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;2:30P</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 3PM</span></i></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Panel</h3>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 30,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;2:30P</span><span style="font-size: inherit;">M - 3PM</span></h5>
+                <h3 style="font-family: filson-soft, sans-serif;">Angular Panel</h3>
               </div>
-              <div class="timeline-body"></div>
             </div>
           </li>
+          
+
           <!-- <li>
             <div class=" timeline-badge">
               <i class="fa fa-flask"></i>
@@ -339,21 +368,24 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel room2">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;<span style="font-family: filson-soft, sans-serif;">May 31,</span><span style="font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-family: filson-soft, sans-serif;">&nbsp;2:30P</span><span style="font-family: filson-soft, sans-serif;">M - 5:45PM</span></i></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;<span style="font-family: filson-soft, sans-serif;">May 31,</span><span style="font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-family: filson-soft, sans-serif;">&nbsp;2:30P</span><span style="font-family: filson-soft, sans-serif;">M - 5PM</span></i></h5>
                 <h3>Angular Open Space</h3>
               </div>
             </div>
           </li>
+          
           <li>
             <div class=" timeline-badge">
-              <i class="fa fa-comments-o"></i>
+              <i class="fa fa-microphone"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;2:45P</span><span style="font-size: inherit;">M - 3:15PM</span></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Air LIVE - An Interactive Panel</h3>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i>&nbsp;May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;2:45P</span><span style="font-size: inherit;">M - 3:15PM</span></h5>
+                <a [routerLink]="['/talks']" fragment="sebawita"><h3 style="font-family: filson-soft, sans-serif;">Sharing Code Between Web, Mobile Native and Desktop Apps</h3></a>
               </div>
-              <div class="timeline-body"></div>
+              <div class="timeline-body">
+                <p>Sebastian Witalec</p>
+              </div>
             </div>
           </li>
           <li>
@@ -362,7 +394,7 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel room2">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 31,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;3P</span><span style="font-size: inherit;">M - 5PM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 31,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;3P</span><span style="font-size: inherit;">M - 4PM</span></h5>
                 <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Migrating from Angular 1 to Angular 2 Workshop</h3>
               </div>
               <div class="timeline-body">
@@ -370,17 +402,16 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </li>
+
+
           <li class="timeline-inverted">
             <div class=" timeline-badge">
-              <i class="fa fa-microphone"></i>
+              <i class="fa fa-trophy"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;3:15P</span><span style="font-size: inherit;">M - 3:45PM</span></h5>
-                <a [routerLink]="['/talks']" fragment="AlyssaNicoll"><h3 style="font-family: filson-soft, sans-serif;">Animations in an Angular World</h3></a>
-              </div>
-              <div class="timeline-body">
-                <p>Alyssa Nicoll</p>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 31,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;3:15P</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 3:30PM</span></i></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Jeopardy</h3>
               </div>
             </div>
           </li>
@@ -390,11 +421,11 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 31,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;3:45P</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 4:15PM</span></i></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">May 31,</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">&nbsp;3:30P</span><span style="font-size: inherit; font-family: filson-soft, sans-serif;">M - 4PM</span></i></h5>
                 <a [routerLink]="['/talks']" fragment="mgechev"><h3 style="font-family: filson-soft, sans-serif;">Angular Performance Checklist</h3></a>
               </div>
               <div class="timeline-body">
-                <p>MInko Gechev</p>
+                <p>Minko Gechev</p>
               </div>
             </div>
           </li>
@@ -404,22 +435,37 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:15P</span><span style="font-size: inherit;">M - 4:45PM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4P</span><span style="font-size: inherit;">M - 4:15PM</span></h5>
                 <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Break</h3>
               </div>
             </div>
           </li>
+          <li class="timeline-inverted">
+            <div class=" timeline-badge">
+              <i class="fa fa-keyboard-o"></i>
+            </div>
+            <div class="timeline-panel room2">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">May 31,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4P</span><span style="font-size: inherit;">M - 5PM</span></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Testing</h3>
+              </div>
+              <div class="timeline-body">
+                <p>Joe Eames</p>
+              </div>
+            </div>
+          </li>
+
           <li>
             <div class=" timeline-badge">
               <i class="fa fa-microphone"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i>&nbsp;May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:45P</span><span style="font-size: inherit;">M - 5:15PM</span></h5>
-                <a [routerLink]="['/talks']" fragment="sebawita"><h3 style="font-family: filson-soft, sans-serif;">Sharing Code Between Web, Mobile Native and Desktop Apps</h3></a>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:15P</span><span style="font-size: inherit;">M - 4:45PM</span></h5>
+                <a [routerLink]="['/talks']" fragment="AlyssaNicoll"><h3 style="font-family: filson-soft, sans-serif;">Animations in an Angular World</h3></a>
               </div>
               <div class="timeline-body">
-                <p>Sebastian Witalec</p>
+                <p>Alyssa Nicoll</p>
               </div>
             </div>
           </li>
@@ -429,19 +475,31 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;5:15P</span><span style="font-size: inherit;">M - 5:45PM</span></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Panel</h3>
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:45P</span><span style="font-size: inherit;">M - 5:15PM</span></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Air LIVE - An Interactive Panel</h3>
               </div>
               <div class="timeline-body"></div>
             </div>
           </li>
           <li>
             <div class=" timeline-badge">
+              <i class="fa fa-glass"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;5:15P</span><span style="font-size: inherit;">M - 6:15PM</span></h5>
+                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">NG-CRUISE cocktail party - Guests invited</h3>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class=" timeline-badge">
               <i class="fa fa-flask"></i>
             </div>
             <div class="timeline-panel room2">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i>&nbsp;May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;8P</span><span style="font-size: inherit;">M - 10:00PM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i>&nbsp;May 31,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;8P</span><span style="font-size: inherit;">M - 10PM</span></h5>
                 <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Hero Hack Night</h3>
               </div>
               <div class="timeline-body"></div>
@@ -471,24 +529,12 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel room2">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;<span style="font-family: filson-soft, sans-serif;">June 1,</span><span style="font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-family: filson-soft, sans-serif;">&nbsp;2:30P</span><span style="font-family: filson-soft, sans-serif;">M - 5:45PM</span></i></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;<span style="font-family: filson-soft, sans-serif;">June 1,</span><span style="font-family: filson-soft, sans-serif;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-family: filson-soft, sans-serif;">&nbsp;2:30P</span><span style="font-family: filson-soft, sans-serif;">M - 5PM</span></i></h5>
                 <h3>Angular Open Space</h3>
               </div>
             </div>
           </li>
-          <li>
-            <div class=" timeline-badge">
-              <i class="fa fa-comments-o"></i>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>June 1,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;2:45P</span><span style="font-size: inherit;">M - 3:15PM</span></h5>
-                <h3 style="font-family: filson-soft, sans-serif; color: rgb(73, 73, 86);">Angular Air LIVE - An Interactive Panel</h3>
-              </div>
-              <div class="timeline-body"></div>
-            </div>
-          </li>
-          <li>
+          <li class="timeline-inverted">
             <div class=" timeline-badge">
               <i class="fa fa-keyboard-o"></i>
             </div>
@@ -502,6 +548,20 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </li>
+          <li>
+            <div class=" timeline-badge">
+              <i class="fa fa-microphone"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>June 1,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;2:45P</span><span style="font-size: inherit;">M - 3:15PM</span></h5>
+                <a [routerLink]="['/talks']" fragment="AysSomething"><h3 style="font-family: filson-soft, sans-serif; ">How to run away from reality into a world of VR</h3></a>
+              </div>
+              <div class="timeline-body">
+                <p>Aysegul Yonet</p>
+              </div>
+            </div>
+          </li>
           <li class="timeline-inverted">
             <div class=" timeline-badge">
               <i class="fa fa-microphone"></i>
@@ -509,10 +569,10 @@ import { Component } from '@angular/core';
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>June 1,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;3:15P</span><span style="font-size: inherit;">M - 3:45PM</span></h5>
-                <a [routerLink]="['/talks']" fragment="AysSomething"><h3 style="font-family: filson-soft, sans-serif; ">How to run away from reality into a world of VR</h3></a>
+                <a [routerLink]="['/talks']" fragment="js_dev"><h3 style="font-family: filson-soft, sans-serif;">CaaS: Components as a Service</h3></a>
               </div>
               <div class="timeline-body">
-                <p>Aysegul Yonet</p>
+                <p>Aaron Frost</p>
               </div>
             </div>
           </li>
@@ -530,33 +590,30 @@ import { Component } from '@angular/core';
           </li>
           <li class="timeline-inverted">
             <div class=" timeline-badge">
-              <i class="fa fa-microphone"></i>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"><span style="font-size: inherit;">&nbsp;</span></i>June 1,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:15P</span><span style="font-size: inherit;">M - 4:45PM</span></h5>
-                <a [routerLink]="['/talks']" fragment="js_dev"><h3 style="font-family: filson-soft, sans-serif;">CaaS: Components as a Service</h3></a>
-              </div>
-              <div class="timeline-body">
-                <p>Aaron Frost</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class=" timeline-badge">
               <i class="fa fa-star-o"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar"></i>&nbsp;June 1,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:45P</span><span style="font-size: inherit;">M - 5:15PM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i>&nbsp;June 1,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:15P</span><span style="font-size: inherit;">M - 4:45PM</span></h5>
                 <a [routerLink]="['/talks']" fragment="victorsavkin"><h3>Closing Keynote. On the source of truth. How to manage state in Angular apps.</h3></a>
               </div>
               <div class="timeline-body">Victor Savkin</div>
             </div>
           </li>
-          <li class="timeline-inverted">
+          <li>
             <div class=" timeline-badge">
               <i class="fa fa-comments-o"></i>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h5 class="timeline-title"><i class="fa fa-calendar"></i> <span style="font-size: inherit;">June 1,</span><span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;4:45P</span><span style="font-size: inherit;">M - 5:15PM</span></h5>
+                <h3 style="font-family: filson-soft, sans-serif;">Angular Panel</h3>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class=" timeline-badge">
+              <i class="fa fa-heart"></i>
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
@@ -594,7 +651,7 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;</i>June 3,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;9:00A</span><span style="font-size: inherit;">M - 5PM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;</i>June 3,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;9A</span><span style="font-size: inherit;">M - 5PM</span></h5>
                 <a [routerLink]="['/workshops']" fragment="BenLesh"><h3>RxJS By Example<br></h3></a>
               </div>
               <div class="timeline-body">Ben Lesh</div>
@@ -606,7 +663,7 @@ import { Component } from '@angular/core';
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;</i>June 3,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;9:00A</span><span style="font-size: inherit;">M - 5PM</span></h5>
+                <h5 class="timeline-title"><i class="fa fa-calendar">&nbsp;</i>June 3,<span style="font-size: inherit;">&nbsp;</span><span class="fa fa-clock-o" style="font-size: 14px;"></span><span style="font-size: inherit;">&nbsp;9A</span><span style="font-size: inherit;">M - 5PM</span></h5>
                 <a [routerLink]="['/workshops']" fragment="josepheames"><h3>Angular 2 Testing Front to Back</h3></a>
               </div>
               <div class="timeline-body">Joe Eames</div>
