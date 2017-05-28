@@ -651,3 +651,8 @@ workshops-section .col-md-6 {
 .img-community {
   max-height: 100px;
 }
+
+.important {
+  border-left: 7px solid #444;
+  padding-left: 15px;
+}

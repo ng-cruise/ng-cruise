@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
       <div class="col-md-8 conduct">
         <div>
           <h3>Important</h3>
-          <p>We recommend you being at the dock before 1PM to check in. Check in starts at 11:30AM until 2:00PM. We also recommend you to check-in online before boarding, this will greatly expedite the process. Remember also to bring a valid Passport.</p>
+          <p class="important">We recommend you being at the dock before 1PM to check in. Check in starts at 11AM until 2:00PM. We also recommend you to check-in online before boarding, this will greatly expedite the process. Remember also to bring a valid Passport.</p>
           <h3>Cruise Itinerary</h3>
           <h4>Day 1&ndash;29th May &mdash; Departs Miami at 4pm (CHECKIN BY 1PM)</h4>
           <p>Miami is a major cosmopolitan city with world-renowned beaches,
@@ -38,7 +38,7 @@ import { Component } from '@angular/core';
           <ul>
             <li>Monday 4:15pm to 5:45pm</li>
             <li>Tuesday 8:00am to 3:00pm</li>
-            <li>Wednesday 2:30pm to 5:45pm</li>
+            <li>Wednesday 2:30pm to 5:15pm</li>
             <li>Thursday 2:30pm to 5:45pm</li>
           </ul>
 <div class="carousel slide" data-ride="carousel" id="myCarousel" style="max-width:300px">
