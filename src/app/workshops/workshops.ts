@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
             <div class="centerBlock padb35">
               <h4>Workshops will be run on <strong>June 3rd</strong> separately from the conference.</h4>
               <h4>Schedule: 9am to 5pm</h4>
-              <h4>Location: PortMiami, Royal Caribbean HQ, 1080 Caribbean Way, Miami, FL 33132</h4>
+              <h4>Location: EB Hotel Miami<br>(Conference room B)<br> 4299 NW 36th Street, Miami, FL 33166</h4>
             </div>
           </div>
         </div>
